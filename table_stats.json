@@ -1,5 +1,5 @@
 {
-  "total_tables": 7,
+  "total_tables": 5,
   "tables_with_sections": 0,
   "tables_with_no_class": 1,
   "tables_with_multiple_classes": 0,
@@ -19,17 +19,15 @@
         ]
       },
       "table4": {
-        "count": 2,
+        "count": 1,
         "files": [
-          "HLA.table.html",
           "viscerosomatics.table.html"
         ]
       },
       "table6": {
-        "count": 2,
+        "count": 1,
         "files": [
-          "Chapman_points.table.html",
-          "Clinical_Tests.table.html"
+          "Chapman_points.table.html"
         ]
       }
     }
@@ -38,14 +36,8 @@
     "Chapman_points.table.html": [
       "table6"
     ],
-    "Clinical_Tests.table.html": [
-      "table6"
-    ],
     "Counterstrain.table.html": [
       "table3"
-    ],
-    "HLA.table.html": [
-      "table4"
     ],
     "OMM.table.html": [],
     "SBS_strain.table.html": [
@@ -61,12 +53,12 @@
     "table4",
     "table6"
   ],
-  "total_rows": 276,
-  "total_cols": 16,
-  "tables_with_header_row": 3,
-  "tables_with_span": 6,
-  "avg_rows_per_table": 39.43,
-  "avg_cols_per_table": 2.29,
+  "total_rows": 232,
+  "total_cols": 14,
+  "tables_with_header_row": 1,
+  "tables_with_span": 4,
+  "avg_rows_per_table": 46.4,
+  "avg_cols_per_table": 2.8,
   "common_column_headers": {
     "organ": 1,
     "anterior point": 1,
@@ -78,7 +70,6 @@
     "counterstrain point": 1,
     "location": 1,
     "treatment position": 1,
-    "hla associations with disease": 1,
     "posterior shoulder spaces": 1,
     "visceral organ": 1,
     "associated sympathetic innervation": 1,
@@ -139,14 +130,14 @@
   "row_structure": {
     "rows_with_exactly_2_cols": 31,
     "rows_with_mixed_col_counts": 0,
-    "tables_with_inconsistent_row_lengths": 6
+    "tables_with_inconsistent_row_lengths": 4
   },
   "th_usage": {
-    "tables_with_no_th": 269,
-    "tables_with_only_th_in_col1": 4,
-    "th_cells_not_in_first_col": 3
+    "tables_with_no_th": 231,
+    "tables_with_only_th_in_col1": 0,
+    "th_cells_not_in_first_col": 1
   },
-  "avg_words_per_cell": 5.25,
+  "avg_words_per_cell": 5.47,
   "max_table_dimensions": {
     "rows": 107,
     "cols": 4
@@ -181,7 +172,7 @@
   },
   "frequent_non_header_words": {
     "the": 245,
-    "and": 120,
+    "and": 119,
     "process": 56,
     "transverse": 51,
     "between": 42,
@@ -206,7 +197,6 @@
     "posterior": 22,
     "aspect": 21,
     "bend": 21,
-    "with": 21,
     "iliac": 20,
     "rotate": 20,
     "medial": 19,
@@ -214,21 +204,22 @@
     "t11": 18,
     "second": 17,
     "t10": 17,
-    "colon": 17,
     "level": 17,
     "lower": 16,
+    "colon": 16,
     "spine": 16,
-    "hip": 16,
     "inferior": 15,
     "midway": 15,
     "sphenoid": 15,
     "fine": 15,
+    "with": 15,
     "bilaterally": 15,
-    "hla": 15,
     "angle": 14,
     "tune": 14,
+    "hip": 14,
     "ics": 14,
     "line": 13,
-    "processes": 13
+    "processes": 13,
+    "occiput": 13
   }
 }

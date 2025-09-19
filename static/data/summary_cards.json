@@ -5,19 +5,9 @@
     "desc": "A high-yield summary table for chapman points."
   },
   {
-    "name": "Clinical Tests",
-    "file": "clinical-tests.html",
-    "desc": "A high-yield summary table for clinical tests."
-  },
-  {
     "name": "Counterstrain",
     "file": "counterstrain.html",
     "desc": "A high-yield summary table for counterstrain."
-  },
-  {
-    "name": "HLA",
-    "file": "hla.html",
-    "desc": "A high-yield summary table for hla."
   },
   {
     "name": "OMM",

@@ -594,6 +594,84 @@
     "medical": true
   },
   {
+    "term": "1 anterior-posterior axis",
+    "page": "sbs-strain.html",
+    "section": "Sbs Strain",
+    "medical": true
+  },
+  {
+    "term": "1 anterior-posterior axis nasion to opisthion",
+    "page": "sbs-strain.html",
+    "section": "Sbs Strain",
+    "medical": true
+  },
+  {
+    "term": "2 parallel transverse axes",
+    "page": "sbs-strain.html",
+    "section": "Sbs Strain",
+    "medical": true
+  },
+  {
+    "term": "2 vertical axes",
+    "page": "sbs-strain.html",
+    "section": "Sbs Strain",
+    "medical": true
+  },
+  {
+    "term": "2 vertical axes and 1 anterior-posterior axis",
+    "page": "sbs-strain.html",
+    "section": "Sbs Strain",
+    "medical": true
+  },
+  {
+    "term": "axis",
+    "page": "sbs-strain.html",
+    "section": "Sbs Strain",
+    "medical": true
+  },
+  {
+    "term": "compression",
+    "page": "sbs-strain.html",
+    "section": "Sbs Strain",
+    "medical": true
+  },
+  {
+    "term": "extension",
+    "page": "sbs-strain.html",
+    "section": "Sbs Strain",
+    "medical": true
+  },
+  {
+    "term": "flexion",
+    "page": "sbs-strain.html",
+    "section": "Sbs Strain",
+    "medical": true
+  },
+  {
+    "term": "non-physiological strain patterns",
+    "page": "sbs-strain.html",
+    "section": "Sbs Strain",
+    "medical": true
+  },
+  {
+    "term": "none",
+    "page": "sbs-strain.html",
+    "section": "Sbs Strain",
+    "medical": true
+  },
+  {
+    "term": "occiput",
+    "page": "sbs-strain.html",
+    "section": "Sbs Strain",
+    "medical": true
+  },
+  {
+    "term": "sphenoid",
+    "page": "sbs-strain.html",
+    "section": "Sbs Strain",
+    "medical": true
+  },
+  {
     "term": "<1% suggests prerenal >2% suggests intrinsic renal damage",
     "page": "clinical-tests.html",
     "section": "Clinical Tests",
@@ -831,6 +909,642 @@
     "term": "ziehl-neelsen stain highlights acid-fast organisms",
     "page": "clinical-tests.html",
     "section": "Clinical Tests",
+    "medical": true
+  },
+  {
+    "term": "1 st rib angle",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "1/3 of the distance between the midline and anterior superior iliac spine",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "10 th rib angle",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "11 th rib angle",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "12 th rib angle",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "2 nd rib angle",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "2/3 of the distance between the midline and anterior superior iliac spine",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "3 rd rib angle",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "4 th rib angle",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "5 th rib angle",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "6 th rib angle",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "7 cm and cephalad",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "7 th rib angle",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "8 th rib angle",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "9 th rib angle",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "abduction",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "al1 internal oblique",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "al2 external oblique",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "al3 iliopsoas",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "al4 iliopsoas",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "al5 rectus abdominis",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "along the posterior margin of the tensor fascia latae muscle and 2/3 of the distance between the posterior superior iliac spine and the tensor fascia latae muscle",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "ar3 lateral",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "ar3 medial",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "ar4 lateral",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "ar4 medial",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "ar5 lateral",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "ar5 medial",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "ar6 lateral",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "ar6 medial",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "at the lateral attachment of the sternocleidomastoid muscle 2-3 cm lateral to the medial end of the clavicle.",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "at the level of t 2",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "at the level of t 3",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "at the level of t 4",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "at the level of t 5",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "at the level of t 6",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "at the xiphoid process and bilaterally at the 7 th intercostal space at the midclavicular line",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "at10",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": false
+  },
+  {
+    "term": "at11",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": false
+  },
+  {
+    "term": "at12",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": false
+  },
+  {
+    "term": "below 1 st sternoclavicular joint",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "below the 3 rd rib where it attaches to the lateral sternal border",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "below the 4 th rib where it attaches to the lateral sternal border",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "below the 5 th rib where it attaches to the lateral sternal border",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "below the 6 th rib where it attaches to the lateral sternal border",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "between the earlobe and the angle of the mandible near the transverse process of c 1",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "extend",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "flex to 120 degrees",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "flex to 90 degrees",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "gastrocnemius",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "iliacus",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "iliopsoas",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "inferior aspect of spinous process *c 8 is located at c 7 spinous process",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "inferolateral to c 2 spinous process",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "infraspinatus",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "inguinal",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "internal/external rotation",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "l 1-5",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": false
+  },
+  {
+    "term": "low ilium flare-out",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "lower extremity thigh/knee/leg/ankle/foot",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "lower pole of l5",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "midline",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "on the 2 nd rib at the midclavicular line",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "on the 3 rd rib at the anterior axillary line",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "on the 4 th rib at the anterior axillary line",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "on the 5 th rib at the anterior axillary line",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "on the 6 th rib at the anterior axillary line",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "on the pubic ramus 2 cm lateral to the pubic symphysis.",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "patient is prone with arms forward. extend the head. fine-tune tender point with side bending and rotation away from it. for transverse process",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "patient is prone with arms forward. extend the torso. fine-tune tender point with rotation toward and side bend away from it. for transverse process",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "patient is prone. extend the head. fine-tune tender point with side bending and rotation away from it. for transverse process",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "patient is prone. extend the hip. fine-tune tender point with abduction and external rotation.",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "patient is prone. extend the hip. fine-tune tender point with adduction and external/internal rotation.",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "patient is prone. flex the hip and knee off the table. fine-tune tender point with abduction and external rotation.",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "patient is prone. flex the hip and knee off the table. fine-tune tender point with adduction and internal rotation.",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "patient is seated. physician places contralateral foot on table. patient\u2019s contralateral arm is placed on the physician\u2019s leg. patient\u2019s torso is side-bent towards tender point. side-bend the cervical spine toward the tender point.",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "patient is supine. flex hips and cross contralateral thigh over ipsilateral thigh. fine-tune with internal rotation by pulling lower leg laterally.",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "patient is supine. flex the hip and externally rotate it. fine-tune tender point with lumbar side bending",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "patient is supine. flex the hip. fine-tune tender point with hip abduction and external rotation.",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "patient is supine. flex the hip. no tender-point fine tuning needed.",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "patient is supine. flex the hips. fine-tune tender point by externally rotating the hips and crossing the contralateral leg.",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "patient is supine. flex the hips. fine-tune tender point by rotating away and side bending towards it.",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "patient is supine. neck is flexed. fine-tune tender point with side bending and rotation as needed.",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "pc 1 inion",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "pc 1 lateral",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "pc 2 lateral",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "pc 2 midline",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "pc 3 midline",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "pc 3-7 lateral",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "pc 4-8 midline",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "pectineus",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "piriformis",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "popliteus",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "posterior pelvis/lumbar spine",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "pronation",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "psoas",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "ribs",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "subscapularis",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "supinate",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "supinator",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "supraspinatus",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "t 10",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": false
+  },
+  {
+    "term": "t 11",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": false
+  },
+  {
+    "term": "t 12",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": false
+  },
+  {
+    "term": "upper extremity shoulder/arm",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
+    "medical": true
+  },
+  {
+    "term": "upper pole of l5",
+    "page": "counterstrain.html",
+    "section": "Counterstrain",
     "medical": true
   },
   {

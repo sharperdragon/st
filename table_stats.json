@@ -1,11 +1,23 @@
 {
-  "total_tables": 5,
+  "total_tables": 7,
   "tables_with_sections": 0,
   "tables_with_no_class": 1,
   "tables_with_multiple_classes": 0,
   "tables_with_deprecated_class": 0,
   "class_counts": {
     "table": {
+      "table2": {
+        "count": 1,
+        "files": [
+          "SBS_strain.table.html"
+        ]
+      },
+      "table3": {
+        "count": 1,
+        "files": [
+          "Counterstrain.table.html"
+        ]
+      },
       "table4": {
         "count": 2,
         "files": [
@@ -29,28 +41,43 @@
     "Clinical_Tests.table.html": [
       "table6"
     ],
+    "Counterstrain.table.html": [
+      "table3"
+    ],
     "HLA.table.html": [
       "table4"
     ],
     "OMM.table.html": [],
+    "SBS_strain.table.html": [
+      "table2"
+    ],
     "viscerosomatics.table.html": [
       "table4"
     ]
   },
   "unique_classes": [
+    "table2",
+    "table3",
     "table4",
     "table6"
   ],
-  "total_rows": 155,
-  "total_cols": 9,
+  "total_rows": 276,
+  "total_cols": 16,
   "tables_with_header_row": 3,
-  "tables_with_span": 4,
-  "avg_rows_per_table": 31.0,
-  "avg_cols_per_table": 1.8,
+  "tables_with_span": 6,
+  "avg_rows_per_table": 39.43,
+  "avg_cols_per_table": 2.29,
   "common_column_headers": {
     "organ": 1,
     "anterior point": 1,
     "posterior point": 1,
+    "strain pattern": 1,
+    "axis": 1,
+    "bone and movement": 1,
+    "finger movement with the vault hold": 1,
+    "counterstrain point": 1,
+    "location": 1,
+    "treatment position": 1,
     "hla associations with disease": 1,
     "posterior shoulder spaces": 1,
     "visceral organ": 1,
@@ -77,6 +104,7 @@
     "adrenal glands": 2,
     "urethra": 2,
     "ovaries/testes": 2,
+    "l1-5": 2,
     "posterior shoulder spaces": 2,
     "sympathetic reflexes": 2,
     "chapman\u2019s points": 2,
@@ -98,31 +126,30 @@
     "endocrine": 1,
     "genitourinary": 1,
     "male reproductive organs": 1,
-    "hla associations with disease": 1,
-    "hla marker": 1,
-    "hla-b27": 1,
-    "hla-dr3": 1,
-    "hla-dr4": 1,
-    "hla-dr2": 1,
-    "hla-dq2 / dq8": 1,
-    "hla-dr5": 1,
-    "hla-a3": 1,
-    "hla-b8": 1
+    "strain pattern": 1,
+    "physiological strain patterns": 1,
+    "flexion": 1,
+    "extension": 1,
+    "left torsion": 1,
+    "right torsion": 1,
+    "left side bending and rotation": 1,
+    "right side bending and rotation": 1,
+    "non-physiological strain patterns": 1
   },
   "row_structure": {
-    "rows_with_exactly_2_cols": 1,
+    "rows_with_exactly_2_cols": 31,
     "rows_with_mixed_col_counts": 0,
-    "tables_with_inconsistent_row_lengths": 4
+    "tables_with_inconsistent_row_lengths": 6
   },
   "th_usage": {
-    "tables_with_no_th": 148,
+    "tables_with_no_th": 269,
     "tables_with_only_th_in_col1": 4,
     "th_cells_not_in_first_col": 3
   },
-  "avg_words_per_cell": 4.36,
+  "avg_words_per_cell": 5.25,
   "max_table_dimensions": {
-    "rows": 60,
-    "cols": 3
+    "rows": 107,
+    "cols": 4
   },
   "avg_row_dividers_per_table": 0.0,
   "row_labels_in_multiple_files": {
@@ -145,6 +172,7 @@
     "bladder": 3,
     "urethra": 2,
     "ovaries/testes": 2,
+    "l1-5": 2,
     "posterior shoulder spaces": 2,
     "sympathetic reflexes": 2,
     "chapman\u2019s points": 2,
@@ -152,55 +180,55 @@
     "ant. lumbar tender points": 2
   },
   "frequent_non_header_words": {
-    "the": 118,
-    "process": 44,
-    "and": 40,
-    "between": 36,
-    "transverse": 29,
-    "right": 24,
-    "space": 23,
+    "the": 245,
+    "and": 120,
+    "process": 56,
+    "transverse": 51,
+    "between": 42,
+    "tender": 42,
+    "anterior": 40,
+    "side": 39,
+    "lateral": 38,
+    "patient": 37,
+    "point": 35,
+    "spinous": 34,
+    "right": 33,
+    "away": 31,
+    "left": 30,
+    "rotation": 30,
+    "superior": 28,
+    "flex": 25,
+    "space": 24,
+    "supine": 23,
+    "head": 22,
     "tip": 22,
-    "spinous": 19,
-    "left": 19,
+    "from": 22,
+    "posterior": 22,
+    "aspect": 21,
+    "bend": 21,
+    "with": 21,
+    "iliac": 20,
+    "rotate": 20,
+    "medial": 19,
     "intercostal": 18,
-    "t11": 17,
+    "t11": 18,
+    "second": 17,
+    "t10": 17,
     "colon": 17,
-    "t10": 16,
-    "superior": 15,
+    "level": 17,
+    "lower": 16,
+    "spine": 16,
+    "hip": 16,
+    "inferior": 15,
+    "midway": 15,
+    "sphenoid": 15,
+    "fine": 15,
+    "bilaterally": 15,
     "hla": 15,
-    "midway": 14,
-    "lateral": 14,
+    "angle": 14,
+    "tune": 14,
     "ics": 14,
-    "junction": 11,
-    "lower": 11,
-    "disease": 11,
-    "anterior": 10,
-    "upper": 10,
-    "t12": 10,
-    "bilaterally": 10,
-    "sternocostal": 9,
-    "middle": 9,
-    "esophagus": 9,
-    "thigh": 9,
-    "marker": 9,
-    "tract": 9,
-    "iliac": 8,
-    "pubic": 8,
-    "tender": 8,
-    "posterior": 7,
-    "area": 7,
-    "triangular": 7,
-    "head": 6,
-    "rib": 6,
-    "aspect": 6,
-    "stomach": 6,
-    "liver": 6,
-    "pancreas": 6,
-    "duodenum": 6,
-    "crest": 6,
-    "with": 6,
-    "away": 6,
-    "urine": 6,
-    "inferior": 5
+    "line": 13,
+    "processes": 13
   }
 }

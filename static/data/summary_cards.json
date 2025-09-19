@@ -10,6 +10,11 @@
     "desc": "A high-yield summary table for clinical tests."
   },
   {
+    "name": "Counterstrain",
+    "file": "counterstrain.html",
+    "desc": "A high-yield summary table for counterstrain."
+  },
+  {
     "name": "HLA",
     "file": "hla.html",
     "desc": "A high-yield summary table for hla."
@@ -18,6 +23,11 @@
     "name": "OMM",
     "file": "omm.html",
     "desc": "A high-yield summary table for omm."
+  },
+  {
+    "name": "Sbs Strain",
+    "file": "sbs-strain.html",
+    "desc": "A high-yield summary table for sbs strain."
   },
   {
     "name": "Viscerosomatics",

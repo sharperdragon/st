@@ -1,0 +1,954 @@
+[
+  {
+    "term": "Travel + self-limiting watery/brown diarrhea",
+    "assoc": "Traveler's diarrhea (ETEC)"
+  },
+  {
+    "term": "Bloody diarrhea + poultry",
+    "assoc": "Campylobacter jejuni or Salmonella"
+  },
+  {
+    "term": "Abx + diarrhea",
+    "assoc": "C. difficile"
+  },
+  {
+    "term": "Fever 104+ + abdo distension in C. diff",
+    "assoc": "Toxic megacolon"
+  },
+  {
+    "term": "Bloody diarrhea + travel",
+    "assoc": "Entamoeba histolytica"
+  },
+  {
+    "term": "Close quarters/military barracks/cruise ship + watery diarrhea",
+    "assoc": "Norwalk virus"
+  },
+  {
+    "term": "Child 10 years",
+    "assoc": "Pseudomonas"
+  },
+  {
+    "term": "Pneumonia after influenza",
+    "assoc": "S. aureus"
+  },
+  {
+    "term": "Pneumonia + rabbits",
+    "assoc": "F. tularensis"
+  },
+  {
+    "term": "Pneumonia + cattle",
+    "assoc": "Coxiella (Q fever)"
+  },
+  {
+    "term": "Pneumonia + birds",
+    "assoc": "Chlamydia psittaci"
+  },
+  {
+    "term": "Leg swelling + pain + SOB",
+    "assoc": "Pulmonary embolism"
+  },
+  {
+    "term": "PE in pregnant woman",
+    "assoc": "V/Q scan"
+  },
+  {
+    "term": "PE acid-base",
+    "assoc": "Respiratory alkalosis"
+  },
+  {
+    "term": "Asthma acid-base",
+    "assoc": "Respiratory alkalosis"
+  },
+  {
+    "term": "Aspirin toxicity first 20 mins",
+    "assoc": "Respiratory alkalosis"
+  },
+  {
+    "term": "Aspirin toxicity after 20 mins",
+    "assoc": "Mixed metabolic acidosis-respiratory alkalosis"
+  },
+  {
+    "term": "TCA toxicity",
+    "assoc": "Sodium bicarb"
+  },
+  {
+    "term": "High calcium + polyuria",
+    "assoc": "Nephrogenic diabetes insipidus"
+  },
+  {
+    "term": "High calcium + confusion",
+    "assoc": "Delirium"
+  },
+  {
+    "term": "Ataxia + confusion + ophthalmoplegia",
+    "assoc": "Wernicke encephalopathy"
+  },
+  {
+    "term": "Retrograde amnesia + confabulation in alcoholic",
+    "assoc": "Korsakoff psychosis"
+  },
+  {
+    "term": "Stress incontinence",
+    "assoc": "Pelvic floor exercises (Kegel)"
+  },
+  {
+    "term": "Hyperactive detrusor",
+    "assoc": "Urge incontinence"
+  },
+  {
+    "term": "Incontinence + high post-void volume",
+    "assoc": "Overflow incontinence"
+  },
+  {
+    "term": "Tender prostate on exam",
+    "assoc": "Prostatitis"
+  },
+  {
+    "term": "Costovertebral angle tenderness + fever",
+    "assoc": "Pyelonephritis"
+  },
+  {
+    "term": "Saddle anesthesia + urinary retention",
+    "assoc": "Cauda equina syndrome"
+  },
+  {
+    "term": "Perianal anesthesia + urinary retention/incontinence",
+    "assoc": "Conus medullaris syndrome"
+  },
+  {
+    "term": "Gradual-onset dementia + no sensory/motor deficits",
+    "assoc": "Alzheimer's"
+  },
+  {
+    "term": "Low MMSE + patient apathetic",
+    "assoc": "Depression (pseudodementia)"
+  },
+  {
+    "term": "Step-wise decline + sensory/motor disturbance",
+    "assoc": "Vascular dementia"
+  },
+  {
+    "term": "Visual hallucinations + Parkinsonism + dementia",
+    "assoc": "Lewy body dementia"
+  },
+  {
+    "term": "Apathy + disinhibition + personality change + dementia",
+    "assoc": "Frontotemporal dementia"
+  },
+  {
+    "term": "Wet, wobbly, wacky",
+    "assoc": "Normal pressure hydrocephalus"
+  },
+  {
+    "term": "Parkinsonism in young",
+    "assoc": "Wilson's disease"
+  },
+  {
+    "term": "Waiter tip position in kid",
+    "assoc": "Erb-Duchenne palsy"
+  },
+  {
+    "term": "Pronated arm + wrist drop",
+    "assoc": "Radial nerve injury"
+  },
+  {
+    "term": "Midshaft humerus fracture",
+    "assoc": "Radial nerve injury"
+  },
+  {
+    "term": "Supracondylar humerus fracture",
+    "assoc": "Median nerve injury"
+  },
+  {
+    "term": "Surgical neck humerus fracture",
+    "assoc": "Axillary nerve injury"
+  },
+  {
+    "term": "Medial epicondyle injury",
+    "assoc": "Ulnar nerve injury"
+  },
+  {
+    "term": "Paresthesias + pain after burn/casting",
+    "assoc": "Compartment syndrome"
+  },
+  {
+    "term": "Back pain worse AM, better throughout day",
+    "assoc": "Ankylosing spondylitis"
+  },
+  {
+    "term": "Bamboo spine",
+    "assoc": "Ankylosing spondylitis"
+  },
+  {
+    "term": "Back pain worse standing/walking",
+    "assoc": "Lumbar spinal stenosis"
+  },
+  {
+    "term": "Bilateral arm paresthesias in RA",
+    "assoc": "Atlantoaxial subluxation"
+  },
+  {
+    "term": "High Hgb + pruritis after shower",
+    "assoc": "Polycythemia vera"
+  },
+  {
+    "term": "Blurry vision/Raynaud/finger pain/headache",
+    "assoc": "Hyperviscosity syndrome"
+  },
+  {
+    "term": "Hereditary spherocytosis",
+    "assoc": "Ankyrin/spectrin/band 3 deficiency"
+  },
+  {
+    "term": "Viral infection + tinnitus + vertigo",
+    "assoc": "Labyrinthitis"
+  },
+  {
+    "term": "Viral infection + vertigo",
+    "assoc": "Vestibular neuritis"
+  },
+  {
+    "term": "New murmur + fever",
+    "assoc": "Endocarditis"
+  },
+  {
+    "term": "Fixed S2 splitting",
+    "assoc": "Atrial septal defect"
+  },
+  {
+    "term": "Holosystolic murmur + parasternal heave/thrill",
+    "assoc": "VSD"
+  },
+  {
+    "term": "To-and-fro murmur",
+    "assoc": "PDA"
+  },
+  {
+    "term": "Continuous machinery murmur",
+    "assoc": "PDA"
+  },
+  {
+    "term": "Congenital rubella",
+    "assoc": "PDA"
+  },
+  {
+    "term": "SLE mom + neonatal heart block",
+    "assoc": "Congenital 3rd degree heart block"
+  },
+  {
+    "term": "Williams syndrome",
+    "assoc": "Supravalvular aortic stenosis"
+  },
+  {
+    "term": "Bicuspid aortic valve",
+    "assoc": "Aortic stenosis"
+  },
+  {
+    "term": "Mid-systolic murmur + worse with Valsalva",
+    "assoc": "HOCM"
+  },
+  {
+    "term": "Marfan/Ehlers-Danlos",
+    "assoc": "MVP or aortic regurgitation"
+  },
+  {
+    "term": "Rheumatic heart disease acute",
+    "assoc": "Mitral regurgitation"
+  },
+  {
+    "term": "Rheumatic heart disease late",
+    "assoc": "Mitral stenosis"
+  },
+  {
+    "term": "Mid-systolic click",
+    "assoc": "MVP"
+  },
+  {
+    "term": "Bounding pulses + wide pulse pressure",
+    "assoc": "Aortic regurgitation"
+  },
+  {
+    "term": "Syncope + angina + dyspnea (SAD)",
+    "assoc": "Aortic stenosis"
+  },
+  {
+    "term": "Dyspnea 2nd trimester pregnancy",
+    "assoc": "Mitral stenosis"
+  },
+  {
+    "term": "Dyspnea late pregnancy",
+    "assoc": "Peripartum cardiomyopathy"
+  },
+  {
+    "term": "Anuria after catheter removal",
+    "assoc": "Acute urethral obstruction"
+  },
+  {
+    "term": "BUN/Cr >20",
+    "assoc": "Prerenal azotemia"
+  },
+  {
+    "term": "Blood loss + oliguria",
+    "assoc": "Acute tubular necrosis"
+  },
+  {
+    "term": "Blood loss + obstetric catastrophe",
+    "assoc": "Diffuse cortical necrosis"
+  },
+  {
+    "term": "Sickle cell + nephrotic syndrome",
+    "assoc": "Focal segmental glomerulosclerosis"
+  },
+  {
+    "term": "Sickle cell + red urine",
+    "assoc": "Renal papillary necrosis"
+  },
+  {
+    "term": "Pleural/supradiaphragmatic plaques",
+    "assoc": "Asbestosis"
+  },
+  {
+    "term": "Dysphagia to solids/liquids simultaneously",
+    "assoc": "Achalasia"
+  },
+  {
+    "term": "Dysphagia to solids progressing to liquids",
+    "assoc": "Esophageal cancer"
+  },
+  {
+    "term": "Halitosis + gurgling when swallowing",
+    "assoc": "Zenker's diverticulum"
+  },
+  {
+    "term": "Bird's beak appearance",
+    "assoc": "Achalasia"
+  },
+  {
+    "term": "Diabetic + new GERD",
+    "assoc": "Diabetic gastroparesis"
+  },
+  {
+    "term": "Refeeding syndrome",
+    "assoc": "Hypophosphatemia"
+  },
+  {
+    "term": "Cholelithiasis",
+    "assoc": "Fat, forty, female, fertile"
+  },
+  {
+    "term": "Abdo pain + friction rub over chest",
+    "assoc": "Uremic pericarditis"
+  },
+  {
+    "term": "High WBC + high leukocyte ALP",
+    "assoc": "Leukemoid reaction"
+  },
+  {
+    "term": "High WBC + low leukocyte ALP",
+    "assoc": "CML"
+  },
+  {
+    "term": "Smudge cells + autoimmune hemolytic anemia",
+    "assoc": "CLL"
+  },
+  {
+    "term": "Auer rods",
+    "assoc": "AML"
+  },
+  {
+    "term": "Dry cough in winter",
+    "assoc": "Cough-variant asthma"
+  },
+  {
+    "term": "Young African American woman + dry cough + nodular CXR",
+    "assoc": "Sarcoidosis"
+  },
+  {
+    "term": "Hematuria + hemoptysis",
+    "assoc": "Goodpasture's syndrome"
+  },
+  {
+    "term": "Anti-GBM antibodies",
+    "assoc": "Goodpasture's syndrome"
+  },
+  {
+    "term": "Hematuria + hemoptysis + \"head-itis\"",
+    "assoc": "Wegener's granulomatosis"
+  },
+  {
+    "term": "c-ANCA",
+    "assoc": "Wegener's granulomatosis"
+  },
+  {
+    "term": "Asthma + eosinophilia",
+    "assoc": "Churg-Strauss syndrome"
+  },
+  {
+    "term": "p-ANCA",
+    "assoc": "Churg-Strauss syndrome"
+  },
+  {
+    "term": "High ALP + high direct bilirubin + pruritis + high cholesterol",
+    "assoc": "Primary biliary cirrhosis"
+  },
+  {
+    "term": "Anti-mitochondrial antibodies",
+    "assoc": "Primary biliary cirrhosis"
+  },
+  {
+    "term": "Teenage girl + chronic candida infections",
+    "assoc": "Chronic mucocutaneous candidiasis"
+  },
+  {
+    "term": "Bacterial/fungal/protozoal/viral infections since birth",
+    "assoc": "SCID"
+  },
+  {
+    "term": "Bacterial infections since 6 months",
+    "assoc": "Bruton's agammaglobulinemia"
+  },
+  {
+    "term": "Greasy scaly scalp + itchy papules in adult",
+    "assoc": "Seborrheic dermatitis"
+  },
+  {
+    "term": "Odynophagia in immunocompromised",
+    "assoc": "Esophageal candidiasis"
+  },
+  {
+    "term": "Hypopigmentation on upper back/trunk",
+    "assoc": "Tinea versicolor"
+  },
+  {
+    "term": "Beefy red well-demarcated skin plaque",
+    "assoc": "Erysipelas"
+  },
+  {
+    "term": "Wide-complex tachycardia",
+    "assoc": "Ventricular tachycardia"
+  },
+  {
+    "term": "Narrow-complex tachycardia",
+    "assoc": "SVT"
+  },
+  {
+    "term": "Red-orange crystals in diaper + self-mutilation",
+    "assoc": "Lesch-Nyhan syndrome"
+  },
+  {
+    "term": "Dark skin on forearms + increased fasting glucose",
+    "assoc": "Hemochromatosis"
+  },
+  {
+    "term": "Arthritis + thrombocytopenia in young woman",
+    "assoc": "SLE"
+  },
+  {
+    "term": "Malar rash + low RBCs/WBCs/platelets",
+    "assoc": "SLE"
+  },
+  {
+    "term": "Wire looping capillary pattern",
+    "assoc": "Diffuse proliferative glomerulonephritis"
+  },
+  {
+    "term": "Anti-Smith antibodies",
+    "assoc": "SLE"
+  },
+  {
+    "term": "Anti-histone antibodies",
+    "assoc": "Drug-induced lupus"
+  },
+  {
+    "term": "Viral infection + all three cell lines down",
+    "assoc": "Aplastic anemia"
+  },
+  {
+    "term": "Random bruising at different stages in woman 30s-40s",
+    "assoc": "ITP"
+  },
+  {
+    "term": "Hemarthrosis in school-age boy",
+    "assoc": "Hemophilia"
+  },
+  {
+    "term": "Epistaxis + bruising + menorrhagia",
+    "assoc": "von Willebrand disease"
+  },
+  {
+    "term": "Mouth ulcers + fever on certain drugs",
+    "assoc": "Agranulocytosis"
+  },
+  {
+    "term": "\"Hot feels cold; cold feels hot\"",
+    "assoc": "Ciguatera toxicity"
+  },
+  {
+    "term": "Otitis externa + mastoiditis",
+    "assoc": "Malignant otitis externa"
+  },
+  {
+    "term": "Cups of foul-smelling sputum",
+    "assoc": "Bronchiectasis"
+  },
+  {
+    "term": "RBCs in CSF",
+    "assoc": "Herpes encephalitis"
+  },
+  {
+    "term": "Latex agglutination test",
+    "assoc": "Cryptococcal meningitis"
+  },
+  {
+    "term": "Recurrent URI",
+    "assoc": "IgA deficiency"
+  },
+  {
+    "term": "Linear ulcers on colonoscopy",
+    "assoc": "CMV colitis"
+  },
+  {
+    "term": "Hereditary angioedema",
+    "assoc": "C1 esterase inhibitor deficiency"
+  },
+  {
+    "term": "Familial thyroid cancer",
+    "assoc": "Medullary thyroid carcinoma"
+  },
+  {
+    "term": "Auer rods",
+    "assoc": "APL, t(15;17)"
+  },
+  {
+    "term": "bilobed nuclei + CD15 & CD30",
+    "assoc": "Reed-Sternberg cells (Hodgkin Lymphoma)"
+  },
+  {
+    "term": "Rhabdomyolysis",
+    "assoc": "False positive blood on urine dipstick"
+  },
+  {
+    "term": "Glomerulus “Spikes” on basement membrane + “dome-like” subepithelium",
+    "assoc": "Membranous Nephropathy"
+  },
+  {
+    "term": "Erythema nodosum",
+    "assoc": "Panniculitis from immune complexes"
+  },
+  {
+    "term": "High HbA2",
+    "assoc": "Beta-thalassemia"
+  },
+  {
+    "term": "Basophilic stippling of RBCs",
+    "assoc": "Lead poisoning"
+  },
+  {
+    "term": "Red urine 1-3 days after URTI",
+    "assoc": "IgA nephropathy"
+  },
+  {
+    "term": "Red urine 1-2 weeks after skin infection",
+    "assoc": "PSGN"
+  },
+  {
+    "term": "IgA nephropathy + purpura + arthralgias + abdominal pain",
+    "assoc": "HSP"
+  },
+  {
+    "term": "Young adult + Parkinsonism",
+    "assoc": "Wilson disease"
+  },
+  {
+    "term": "lymphangiosarcoma after mastectomy",
+    "assoc": "Stewart-Treves syndrome"
+  },
+  {
+    "term": "benign vascular lesion in neonate",
+    "assoc": "Strawberry hemangioma"
+  },
+  {
+    "term": "large vascular lesion + thrombocytopenia",
+    "assoc": "Kasabach-Merritt syndrome"
+  },
+  {
+    "term": "cherry red blood or lips",
+    "assoc": "CO poisoning"
+  },
+  {
+    "term": "chocolate-colored blood",
+    "assoc": "Methemoglobinemia"
+  },
+  {
+    "term": "violaceous papules in V1 distribution",
+    "assoc": "Sturge-Weber syndrome"
+  },
+  {
+    "term": "ulcer at medial malleolus + hyperpigmentation",
+    "assoc": "Chronic venous insufficiency"
+  },
+  {
+    "term": "punched-out ulcer on foot + claudication",
+    "assoc": "Arterial insufficiency"
+  },
+  {
+    "term": "unilateral temporal headache + blurry vision in older adult",
+    "assoc": "Temporal arteritis"
+  },
+  {
+    "term": "violaceous rash on eyelids",
+    "assoc": "Heliotrope rash → Dermatomyositis"
+  },
+  {
+    "term": "violaceous papules on knuckles",
+    "assoc": "Gottron papules → Dermatomyositis"
+  },
+  {
+    "term": "rash over shoulders/back",
+    "assoc": "Shawl sign → Dermatomyositis"
+  },
+  {
+    "term": "blurry vision in young adult + optic neuritis",
+    "assoc": "Multiple sclerosis"
+  },
+  {
+    "term": "internuclear ophthalmoplegia",
+    "assoc": "Multiple sclerosis"
+  },
+  {
+    "term": "periorbital edema + fever + muscle pain after pork",
+    "assoc": "Trichinella spiralis"
+  },
+  {
+    "term": "seizures + ash leaf spots + cardiac rhabdomyoma",
+    "assoc": "Tuberous sclerosis"
+  },
+  {
+    "term": "perioral melanosis + cardiac myxoma",
+    "assoc": "Carney complex"
+  },
+  {
+    "term": "AV nicking on eye exam",
+    "assoc": "Hypertensive retinopathy"
+  },
+  {
+    "term": "radial head subluxation in toddler",
+    "assoc": "Nursemaid's elbow"
+  },
+  {
+    "term": "fall on outstretched hand + anatomical snuffbox pain",
+    "assoc": "Scaphoid fracture"
+  },
+  {
+    "term": "golden crusty perioral lesions in child",
+    "assoc": "Impetigo"
+  },
+  {
+    "term": "sharply demarcated red skin lesion + fever",
+    "assoc": "Erysipelas"
+  },
+  {
+    "term": "rapidly spreading soft tissue infection + crepitus",
+    "assoc": "Necrotizing fasciitis"
+  },
+  {
+    "term": "perineal necrosis in diabetic",
+    "assoc": "Fournier gangrene"
+  },
+  {
+    "term": "urine leak with cough/sneeze/laugh",
+    "assoc": "Stress incontinence"
+  },
+  {
+    "term": "sudden urge to void",
+    "assoc": "Urge incontinence"
+  },
+  {
+    "term": "post-void dribbling + high residual",
+    "assoc": "Overflow incontinence"
+  },
+  {
+    "term": "gradually increasing BP in older adult with vascular disease",
+    "assoc": "Renal artery stenosis"
+  },
+  {
+    "term": "young woman + high BP + high renin and aldosterone",
+    "assoc": "Fibromuscular dysplasia"
+  },
+  {
+    "term": "eye worm",
+    "assoc": "Loa loa"
+  },
+  {
+    "term": "wire-looping of glomerular capillaries",
+    "assoc": "Lupus nephritis (Diffuse proliferative GN)"
+  },
+  {
+    "term": "pure motor stroke",
+    "assoc": "Lacunar infarct of internal capsule"
+  },
+  {
+    "term": "pure sensory effects",
+    "assoc": "Thalamic stroke"
+  },
+  {
+    "term": "cherry red blood or lips",
+    "assoc": "CO poisoning"
+  },
+  {
+    "term": "chocolate-colored blood",
+    "assoc": "Methemoglobinemia"
+  },
+  {
+    "term": "internuclear ophthalmoplegia",
+    "assoc": "Multiple sclerosis"
+  },
+  {
+    "term": "violaceous rash on eyelids",
+    "assoc": "Heliotrope rash → Dermatomyositis"
+  },
+  {
+    "term": "violaceous papules on knuckles",
+    "assoc": "Gottron papules → Dermatomyositis"
+  },
+  {
+    "term": "intraerythrocytic rings in U.S. patient without travel history",
+    "assoc": "Babesia"
+  },
+  {
+    "term": "AV nicking on eye exam",
+    "assoc": "Hypertensive retinopathy"
+  },
+  {
+    "term": "golden crusty perioral lesions in child",
+    "assoc": "Impetigo"
+  },
+  {
+    "term": "sharply demarcated red skin lesion + fever",
+    "assoc": "Erysipelas"
+  },
+  {
+    "term": "rapidly spreading soft tissue infection + crepitus",
+    "assoc": "Necrotizing fasciitis"
+  },
+  {
+    "term": "perineal necrosis in diabetic",
+    "assoc": "Fournier gangrene"
+  },
+  {
+    "term": "fever + tachycardia + tachypnea after antibiotic for syphilis",
+    "assoc": "Jarisch-Herxheimer reaction"
+  },
+  {
+    "term": "cavitating lung lesion",
+    "assoc": "Squamous cell carcinoma"
+  },
+  {
+    "term": "hirsutism/virilization + possible gynecomastia",
+    "assoc": "Sertoli-Leydig cell tumor"
+  },
+  {
+    "term": "endometrial hyperplasia",
+    "assoc": "Granulosa cell tumor"
+  },
+  {
+    "term": "anti-desmoglein antibodies",
+    "assoc": "Pemphigus vulgaris"
+  },
+  {
+    "term": "anti-hemidesmosome antibodies",
+    "assoc": "Bullous pemphigoid"
+  },
+  {
+    "term": "anti-type IV collagen antibodies",
+    "assoc": "Goodpasture syndrome"
+  },
+  {
+    "term": "c-ANCA (anti-PR3)",
+    "assoc": "Granulomatosis with polyangiitis (Wegener)"
+  },
+  {
+    "term": "p-ANCA + hematuria only",
+    "assoc": "Microscopic polyangiitis"
+  },
+  {
+    "term": "anti-dsDNA antibodies",
+    "assoc": "SLE (activity marker)"
+  },
+  {
+    "term": "anti-Smith antibodies",
+    "assoc": "SLE (specificity)"
+  },
+  {
+    "term": "anti-histone antibodies",
+    "assoc": "Drug-induced lupus"
+  },
+  {
+    "term": "hypersegmented neutrophils in alcoholics",
+    "assoc": "Folate deficiency"
+  },
+  {
+    "term": "46XX karyotype",
+    "assoc": "Complete molar pregnancy"
+  },
+  {
+    "term": "69XXY karyotype",
+    "assoc": "Partial molar pregnancy"
+  },
+  {
+    "term": "duplex ultrasound of lower extremities",
+    "assoc": "Venous insufficiency"
+  },
+  {
+    "term": "ankle-brachial index < 0.9",
+    "assoc": "Arterial insufficiency"
+  },
+  {
+    "term": "Strawberry tongue",
+    "assoc": "Scarlet fever or Kawasaki disease"
+  },
+  {
+    "term": "Painless erythematous lesions on palms and soles",
+    "assoc": "Janeway lesions (infective endocarditis)"
+  },
+  {
+    "term": "Ring-enhancing brain lesion in AIDS",
+    "assoc": "Toxoplasma gondii"
+  },
+  {
+    "term": "Grayish-white pseudomembranous pharyngitis + bull’s neck appearance",
+    "assoc": "Diphtheria"
+  },
+  {
+    "term": "Apple core lesion on barium enema",
+    "assoc": "Colorectal cancer"
+  },
+  {
+    "term": "Hyperdynamic pulses + head bobbing",
+    "assoc": "Aortic regurgitation"
+  },
+  {
+    "term": "Lead pipe appearance of colon on imaging",
+    "assoc": "Ulcerative colitis"
+  },
+  {
+    "term": "Gout + self-mutilation",
+    "assoc": "Lesch-Nyhan"
+  },
+  {
+    "term": "Upward lens dislocation",
+    "assoc": "Marfan"
+  },
+  {
+    "term": "Downward lens dislocation",
+    "assoc": "Homocystinuria"
+  },
+  {
+    "term": "Café-au-lait + precocious puberty",
+    "assoc": "McCune-Albright"
+  },
+  {
+    "term": "Gowers sign",
+    "assoc": "Duchenne"
+  },
+  {
+    "term": "Crying infant + polydactyly",
+    "assoc": "Patau"
+  },
+  {
+    "term": "High-pitched cry + microcephaly",
+    "assoc": "Cri-du-chat"
+  },
+  {
+    "term": "Ataxia + ophthalmoplegia + confusion",
+    "assoc": "Wernicke"
+  },
+  {
+    "term": "Corkscrew hairs",
+    "assoc": "Scurvy"
+  },
+  {
+    "term": "Musty odor + hypopigmentation",
+    "assoc": "PKU"
+  },
+  {
+    "term": "Janeway lesions",
+    "assoc": "Infective endocarditis"
+  },
+  {
+    "term": "Osler nodes",
+    "assoc": "Infective endocarditis"
+  },
+  {
+    "term": "Splinter hemorrhages",
+    "assoc": "Infective endocarditis"
+  },
+  {
+    "term": "Roth spots",
+    "assoc": "Infective endocarditis"
+  },
+  {
+    "term": "Beck triad",
+    "assoc": "Cardiac tamponade"
+  },
+  {
+    "term": "Head bobbing",
+    "assoc": "Aortic regurgitation"
+  },
+  {
+    "term": "Pulsus parvus et tardus",
+    "assoc": "Aortic stenosis"
+  },
+  {
+    "term": "Bounding pulses + wide PP",
+    "assoc": "Aortic regurgitation"
+  },
+  {
+    "term": "Clue cells",
+    "assoc": "Gardnerella"
+  },
+  {
+    "term": "Steeple sign",
+    "assoc": "Croup"
+  },
+  {
+    "term": "Negri bodies",
+    "assoc": "Rabies"
+  },
+  {
+    "term": "Bull’s neck",
+    "assoc": "Diphtheria"
+  },
+  {
+    "term": "Currant jelly sputum",
+    "assoc": "Klebsiella"
+  },
+  {
+    "term": "Condylomata lata",
+    "assoc": "2° syphilis"
+  },
+  {
+    "term": "Argyll Robertson pupil",
+    "assoc": "3° syphilis"
+  },
+  {
+    "term": "Tea-colored urine + sore throat",
+    "assoc": "PSGN"
+  },
+  {
+    "term": "Black liver",
+    "assoc": "Dubin-Johnson"
+  },
+  {
+    "term": "Bronze diabetes",
+    "assoc": "Hemochromatosis"
+  },
+  {
+    "term": "Apple core lesion",
+    "assoc": "Colon cancer"
+  },
+  {
+    "term": "Nutmeg liver",
+    "assoc": "Budd-Chiari"
+  }
+]

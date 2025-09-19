@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Chapman Points",
+    "file": "chapman-points.html",
+    "desc": "A high-yield summary table for chapman points."
+  },
+  {
+    "name": "Clinical Tests",
+    "file": "clinical-tests.html",
+    "desc": "A high-yield summary table for clinical tests."
+  },
+  {
+    "name": "HLA",
+    "file": "hla.html",
+    "desc": "A high-yield summary table for hla."
+  },
+  {
+    "name": "OMM",
+    "file": "omm.html",
+    "desc": "A high-yield summary table for omm."
+  },
+  {
+    "name": "Viscerosomatics",
+    "file": "viscerosomatics.html",
+    "desc": "A high-yield summary table for viscerosomatics."
+  }
+]

@@ -1,0 +1,160 @@
+/* ===========================
+   Navigation and Cards
+=========================== */
+.nav-link, .home-nav-link  {
+  display: inline-block;
+  background-color: #d0e5f5;
+  text-decoration: none;
+  color: #333;
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center;
+  white-space: nowrap;
+}
+.nav-link {
+  margin: 0.5vw 0.8vw;
+  padding: 0.6em 1.2em;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-nav-link {
+  margin: 0.1vw 0.4vw;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-weight: 450;
+}
+
+
+.nav-link:hover, .home-nav-link:hover  {
+  background-color: #add8e6;
+  transform: scale(1.05);
+}
+
+
+
+#float-nav-container {
+  position: relative;
+  font-family: sans-serif;
+  z-index: 999;
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+  margin: auto 2px auto auto;
+}
+
+/* Nav button */
+#float-nav-button-container {
+  background: #5078A2;
+  color: white;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  width: fit-content;
+  position: relative;
+}
+
+/* ⬅️ Main dropdown aligned with right edge of button, submenu opens left */
+.nav_dropdown_container {
+  position: absolute;
+  top: 0;
+  right: 100%; /* ⬅ Align to left edge of button */
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 0;
+  min-width: 140px;
+  box-sizing: border-box;
+  z-index: 998;
+  border-radius: 5px;
+}
+
+/* Optional: prevent submenu from overlapping other hovers */
+.nav_category {
+  pointer-events: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 12px 14px;
+  height: 25px;
+  border-radius: 0;
+  cursor: default;
+  white-space: nowrap;
+  color: navy;
+  padding: 12px 14px;
+  font-weight: 550;
+}
+.nav_category:hover {
+  background: #f0f4fa;
+}
+
+/* Submenus fly out to the left */
+.nav_submenu {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  background: #e9eff9;
+  border: 1px solid #bbb;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  padding: 0px;
+  min-width: max-content;
+  z-index: 100;
+  border-radius: 5px
+}
+
+/* Links inside submenus */
+
+.nav_link_tab {
+  display: block;
+  padding: 10px 15px;
+  width: min-content;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+
+div #category-glossary:hover {
+  background-color: #cfdff4;
+}
+
+
+
+/* Ensure .nav_link_tab inside .nav_category matches container height and removes padding */
+.nav_category > .nav_link_tab {
+  padding: 0 6px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 1;
+  width:150px
+}
+a.nav_link_tab {
+  width: 170px;
+  text-align:center;
+}
+
+.nav_link_tab:hover {
+  background-color: #cfdff4;
+}
+
+#category-glossary.nav_category,
+.nav_category.has-children > span {
+  font-size: 1rem;
+}
+/* Hide the main dropdown until JS toggles it */
+#nav-dropdown {
+  display: none;
+}
+/* Ensure JS and CSS hover both reveal submenus */
+.nav_category.has-children:hover > .nav_submenu {
+  display: block !important;
+}

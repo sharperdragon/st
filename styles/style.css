@@ -1,0 +1,808 @@
+@import url("/STEVEL-1-Summaries/static/table.css");
+@import url("/STEVEL-1-Summaries/static/nav.css");
+
+:root {
+  /* Fonts */
+  --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --base-font-size: 20px;
+    --header-font-size: 23px;
+    --title-font-size: 25px;
+    --small-head-font-size: 21px;
+
+  /* Colors – Text and Layout */
+  --text-h1: #5078A2;  /* calm blue */
+  --text-h2: #657c7b;  /* muted green-gray */
+  --text-h3: #7b6f97;  /* dusty violet */
+  --text-h4: #4a5670;  /* deeper slate blue */
+  --text-color: #2a2a2a;
+  --border-color: #ccd9e0;
+  --strong-divider: #6c8ca3;
+
+  /* Colors – Backgrounds */
+  --row-bg-1: #ffffff;
+  --row-alt-bg-1: #f5f9fc;
+  --footer-note-bg: #f3f6f9;
+  --header-bg-1: #d0e5f5;
+}
+
+/* ===========================
+   Base Layout
+=========================== */
+body {
+    font-family: "Rubik", -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    padding: 1px;
+    max-width: -webkit-fill-available;
+    background-color: #f4f3ee;
+    max-width: 100vw;
+}
+
+.container {
+    max-width: 100%;
+    margin: 3% auto;
+    padding: 2%;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: unset; /* Centers items horizontally */
+    gap: 3px; /* Adds consistent spacing */
+}
+
+/* ===========================
+   Typography
+=========================== */
+h1 {
+    text-align: center;
+    color: #333333;
+    padding: 1%;
+}
+
+label {
+    font-weight: bold;
+    margin: 0;
+    display: block;
+    padding: 1px;
+}
+
+/* ===========================
+   Utility Containers
+=========================== */
+/* Fix all divs to maintain consistent height */
+div {
+    position: relative; /* Prevents hover effects from changing layout */
+}
+
+/* Container for question list */
+div#question_list {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of items to next row */
+    gap: 10px; /* Space between items */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Disable vertical overflow */
+    width: 95%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #b7d7fa;
+    border-radius: 10px;
+    min-height: 100px; /* Set a fixed height */
+    max-height:60vh;
+    overflow:auto;
+}
+
+/* Updated history section */
+div#history_section {
+    display: flex; 
+    gap: 10px; 
+    align-items: flex-start; 
+    margin-bottom: 10px;
+}
+
+div#history_section > div {
+    flex: 1;
+}
+
+div#history_section > div > label {
+    margin: 0;
+}
+
+div#history_section > div > select {
+    width: 100%;
+}
+
+.input-history-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+/* ===========================
+   Inputs and Forms
+=========================== */
+textarea {
+    width: 95%;
+    margin-bottom: 10px;
+    min-height:150px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1%;
+    max-width: -webkit-fill-available;
+}
+
+/* Styling for each individual label (checkbox item) */
+#question_list label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 8px 2px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content; /* 10 questions per row, adjust the width accordingly */
+    min-width: 230px;
+    word-wrap: normal; /* Break long words if necessary */
+    max-height: 38px;
+}
+#question_list label span.id {
+    padding-right:4px;
+}
+
+/* Ensures the checkboxes and text are aligned correctly */
+#question_list input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and text */
+}
+
+/* Styling for the question number */
+.number {
+    margin-right: 8px; /* Adjust the space between the number and ID */
+}
+
+.id {
+    opacity: 0.7; /* Maintain the desired opacity for the question ID */
+}
+
+#history_select {
+    padding: 8px;
+    font-size: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#history_select:focus {
+    border-color: #479efb;
+    outline: none;
+    box-shadow: 0 0 5px rgba(58, 153, 255, 0.5);
+}
+
+/* ===========================
+   Buttons and Interactions
+=========================== */
+/* Button Styles */
+button {
+    background-color: #3572b3;
+    display: inline-flex;
+    gap: 10px;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 105%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative; /* Lock button in place */
+    box-sizing: border-box; /* Ensure padding and border don't affect size */
+    z-index: 1; /* Ensure hover effects stay above other elements */
+    margin: 10px;
+    min-width: fit-content;
+}
+
+/* Hover effect without shifting elements */
+button:hover {
+    background-color: #2165ad;
+    color: offwhite;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(0.5px); /* Hover effect without affecting layout */
+}
+
+/* Subtle button press animation */
+button:active {
+    transform: translateY(1.5px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Make Clear History button a bit smaller and softer */
+#clear_history_button {
+    background: linear-gradient(to bottom, #ffffff, #f0f0f5);
+    color: #007aff;
+    border: 1px solid #d1d1d6;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 90%;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#clear_history_button:hover {
+    background: #e5e5ea;
+}
+
+div#selection_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 0 1px 0;
+    margin-top: 4px;
+}
+
+/* ===========================
+   Dropdowns and Toggles
+=========================== */
+#mode_section {
+    position: absolute;  /* Fixed positioning */
+    top: 2px;
+    right: 4px;
+    width: 75px;         /* 🔒 Lock width */
+    height: 20px;         /* 🔒 Lock height */
+    background-color: #f9fbff;
+    border: 2px solid #cee1fe;
+    border-radius: 8px;
+    padding: 4px 7px;
+    font-size: 95%;
+    opacity: 0.6;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+}
+
+#mode_section:hover {
+    opacity: 1;
+    background-color: #e8f0ff;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+    border-left: none;
+}
+
+#mode_section span {
+    font-weight: bold;
+    pointer-events: none; /* So only the container triggers hover */
+}
+
+/* Hide the options by default */
+.options_container {
+    display: none;
+    position: absolute;
+    top: -2px;  /* below the #mode_section */
+    right: 89px;
+    /* background-color: white; */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    border-radius: 8px;
+    z-index: 300;
+    flex-direction: column;
+    gap: 0;
+    object-fit:contain;
+    /* min-width: 120px; */
+}
+
+/* Reveal on hover without affecting layout */
+#mode_section:hover .options_container {
+    display: flex;
+    border-top-right-radius:0px;
+    border: 1px solid #d0e3ff;
+    overflow:hidden;
+}
+
+.field_option {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    background-color: #ffffff;
+    padding: 10px 14px;
+    border-radius: 0px;
+    box-shadow: 0 -px 8px rgba(0, 0, 0, 0.1);
+    margin: 0.2px 0;
+    width: 60px;
+    overflow:hidden;
+}
+
+.field_option:hover {
+    background-color: #e0ecff;
+    overflow:hidden;
+}
+
+.field_option:active {
+    background-color: #d0dcf5;
+    transform: scale(0.96);
+    overflow:hidden;
+}
+
+.selected_field_option {
+    background-color: #b9cdf9 !important;
+    color: #003366;
+    font-weight: bold;
+}
+
+
+/* ===========================
+   Navigation and Cards
+=========================== */
+.nav-link, .home-nav-link  {
+  display: inline-block;
+  background-color: #d0e5f5;
+  text-decoration: none;
+  color: #333;
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center;
+  white-space: nowrap;
+}
+.nav-link {
+  margin: 0.5vw 0.8vw;
+  padding: 0.6em 1.2em;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-nav-link {
+  margin: 0.1vw 0.4vw;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-weight: 450;
+}
+
+
+.nav-link:hover, .home-nav-link:hover  {
+  background-color: #add8e6;
+  transform: scale(1.05);
+}
+
+.summary-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 215px;
+  min-height: 110px;
+  padding: 18px;
+  background-color: #f6faff;
+  color: #222;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 500;
+  border: 1.5px solid #b8d8ef;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+}
+
+.summary-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.1);
+  background-color: #eaf5ff;
+  border-color: #95c9e8;
+}
+
+/* ===========================
+   Dynamic Carousel Layout
+=========================== */
+.carousel-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 2rem auto;
+  max-width: -webkit-fill-available;
+  padding: 0 1rem;
+}
+
+.carousel-item {
+  background-color: #fdfdff;
+  border: 1px solid #c3d5f2;
+  border-radius: 10px;
+  padding: 16px;
+  width: 280px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease;
+}
+
+.carousel-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.carousel-item .question {
+  font-weight: 600;
+  color: #2a2a2a;
+  margin-bottom: 1em;
+}
+
+
+/* Carousel answer reveal on hover */
+.carousel-item .answer {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-style: italic;
+  color: #4a5c6a;
+  font-size: 0.95em;
+}
+
+.carousel-item:hover .answer {
+  display: block;
+  opacity: 1;
+}
+
+/* ===========================
+   Miscellaneous and Animations
+=========================== */
+.hidden-answer {
+  background-color: #f4f4f4;
+  color: transparent;
+  cursor: pointer;
+  user-select: none;
+}
+.hidden-answer:hover {
+  background-color: #e0e0e0;
+  color: #ccc;
+}
+
+#copy_button {
+    margin-left: auto;
+}
+
+.history-feedback {
+    position: relative;
+    right: 0;
+    top: -10px;
+    font-size: 14px;
+    color: green;
+    animation: floatUpFade 0.7s ease forwards;
+    pointer-events: none;
+    user-select: none;
+    z-index: 1000;
+    white-space: nowrap;
+}
+
+.ripple {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background: rgba(0, 123, 255, 0.4);
+    opacity: 1;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple-animation 0.6s linear;
+    pointer-events: none;
+    z-index: 0;
+}
+
+@keyframes ripple-animation {
+    to {
+        transform: scale(15);
+        opacity: 0;
+    }
+}
+
+.buzz-banner {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #f0f4f9;
+  padding: 6px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.buzz-track {
+  display: inline-block;
+  font-size: 1.25rem; 
+  white-space: nowrap;
+  min-width: 100%;
+  animation: scroll-buzz var(--scroll-duration, 40s) linear infinite;
+}
+
+
+.buzz-track:hover {
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* Buzzword and Assoc Styles */
+.buzzword {
+  display: inline-block;
+  margin-right: 2.5rem;
+  white-space: nowrap;
+  font-size: 0.95em;
+}
+
+.buzzword strong {
+  color: #333;
+  font-weight: 700;
+}
+
+.buzzword .assoc {
+  font-weight: 400;
+  font-style: italic;
+  color: #666;
+  margin-left: 0.4rem;
+}
+
+.buzzword:hover {
+  background-color: #eef4fa;
+  border-radius: 4px;
+}
+
+
+@keyframes scroll-buzz {
+  0%   { transform: translateX(0); }
+  10%  { transform: translateX(0); }     
+  90%  { transform: translateX(-100%); } 
+  100% { transform: translateX(-100%); }
+}
+
+.buzzword span.assoc {
+  color:#2165ad;
+  font-weight: 700;
+  color: #2165ad;
+}
+/*================================================================================*/
+/*================ MOBILE STYLINGS ====================================*/
+body.mobile .nav-link {
+  display: block;
+  width: 90%;
+  margin: 6px auto;
+  padding: 0.8em 1.2em;
+  font-size: 1rem;
+}
+
+body.mobile .carousel-wrapper {
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+body.mobile .carousel-item {
+  width: 90%;
+  margin: 8px 0;
+}
+
+body.mobile .summary-card {
+  width: 90%;
+  padding: 16px;
+  font-size: 0.95em;
+}
+body.mobile .summary-card .card-title {
+font-size:1.5em;
+font-weight:600;
+}
+
+body.mobile #mode_section {
+  top: 5px;
+  right: 5px;
+  width: 65px;
+  height: 22px;
+  font-size: 85%;
+}
+
+body.mobile #question_list {
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/* =================END MOBILE ===============*/
+
+
+#RapidCarousel #carousel-item {
+  min-width: 60vw;
+}
+
+body.mobile-compact .table-container {
+  padding: 2vw;
+  font-size: 0.95em;
+}
+
+body.mobile .container {
+  margin: 1% auto;
+  padding: 0.5vw;
+  box-shadow: none;
+  border-radius: 4px;
+}
+body.mobile  textarea,
+body.mobile  input,
+body.mobile  select {
+  font-size: 0.90em;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+body.mobile  #question_list label {
+  min-width: unset;
+  max-width: 100%;
+  font-size: 0.8em;
+  padding: 4px 6px;
+}
+
+
+body.mobile  .home-nav-link {
+  font-size: 0.90em;
+  padding: 0.6em 1em;
+  margin: 5px auto;
+  display: block;
+}
+body.mobile .carousel-item {
+  width: 94%;
+  padding: 12px;
+  font-size: 0.95em;
+}
+
+body.mobile .carousel-item .question {
+  font-size: 1em;
+}
+body.mobile .summary-card {
+  width: 95%;
+  padding: 14px;
+  font-size: 0.9em;
+  margin-bottom: 12px;
+}
+
+/* Match layout and hover of category titles */
+.nav_category_link {
+  display: block;
+  padding: 8px 12px;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav_category_link:hover {
+  background-color: var(--nav-hover-bg, #eef2f5);
+}
+
+span.text-green {
+  color: rgb(47, 132, 69)
+}
+
+span.text-blue {
+  color: rgb(11, 77, 170)
+}
+
+span.text-red {
+  color: rgb(153, 39, 39)
+}
+.nav-pinned a {
+  font-weight: bold;
+  color: var(--text-h1);
+}
+.nav-divider {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.highlight-temp {
+  background-color: rgba(76, 255, 21, 0.606);
+  transition: background-color 0.5s ease;
+}
+.search-results-container {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 4px;
+  max-height: 250px;
+  overflow-y: auto;
+  width: 60%;
+  max-width: 400px;
+  z-index: 1000;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.search-result {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.search-result:hover {
+  background: #f0f4f9;
+}
+
+.search-group-header {
+  font-weight: bold;
+  padding: 6px 12px;
+  background: #f8f9fb;
+  border-bottom: 1px solid #eee;
+}
+
+.search-group-header {
+  font-weight: bold;
+  background: #f4f6fa;
+  padding: 6px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+
+.eg_word{
+  font-size:60%;
+  color: #747474
+}
+
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 0;
+  justify-content: start;
+}
+
+.section-nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 14px;
+  background-color: #dbe8f5;
+  border: 1px solid #aac4d9;
+  border-radius: 8px;
+  color: #1d1d1d;
+  font-weight: 500;
+  font-size: 0.95em;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.section-nav a:hover {
+  background-color: #c7dcef;
+  transform: translateY(-1px);
+}
+
+#float-toolbar-container {
+  position: fixed;
+  top: 90px;
+  right: 0;
+  width: 160px;
+  background-color: #f4f7fa;
+  border-left: 1px solid #ccd;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  z-index: 1000;
+  box-shadow: -2px 0 6px rgba(0,0,0,0.1);
+}
+
+#float-toolbar-container button {
+  padding: 6px 10px;
+  background-color: #dde7f2;
+  border: 1px solid #aac4d9;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#float-toolbar-container button:hover {
+  background-color: #cfd8dc;
+}

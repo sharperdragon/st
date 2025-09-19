@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapman Points</title>
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/style.css" />
+  <link rel="icon" href="/STEVEL-1-Summaries/static/stevel_icon.png" />
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/table.css" />
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/nav.css" />
+</head>
+
+<body>
+<div style="display: flex; justify-content: flex-start; align-items: center; margin: 15px auto 18px;">
+  <a href="/STEVEL-1-Summaries/index.html" class="nav-link" style="display: inline-flex; align-items: center; gap: 8px; border:1px solid slate">
+    <img src="/STEVEL-1-Summaries/static/stevel_icon.png" alt="Home" style="height: 24px;">
+    Home
+  </a>
+    <div class="utility-toolbar" style="margin-bottom: 15px;">
+      <button id="reset-button">Reset</button>
+      <button id="hide-all-button">Hide All</button>
+
+      <!-- New Hide Column dropdown -->
+      <div id="hide-col-wrapper" style="display: inline-block; position: relative;">
+        <button id="hide-col-button">Hide Column ▾</button>
+        <div id="hide-col-menu" style="display: none; position: absolute; z-index: 10; background: white; border: 1px solid #ccc; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+          <!-- JS will dynamically populate this -->
+        </div>
+      </div>
+
+      <button id="shuffle-button">Shuffle Rows</button>
+    </div>
+  <nav style="display:show" id="float-nav-container">
+    <div id="float-nav-button-container">
+      <span>Navigate</span>
+    <div class="nav_dropdown_container" id="nav-dropdown">
+      <!-- Immune: submenu -->
+      <div class="nav_category has-children" id="category-immune">
+        <span>Immune</span>
+        <div class="nav_submenu">
+          <a class="nav_link_tab" href="../pages/hla.html">HLA</a>
+        </div>
+      </div>
+      <!-- Misc: submenu -->
+      <div class="nav_category has-children" id="category-misc">
+        <span>Misc</span>
+        <div class="nav_submenu">
+          <a class="nav_link_tab" href="../pages/clinical-tests.html">Clinical Tests</a>
+          <a class="nav_link_tab" href="../pages/omm.html">OMM</a>
+          <a class="nav_link_tab" href="../pages/viscerosomatics.html">Viscerosomatics</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+  </div>
+</div>
+
+  <meta content="true" name="summary-card"/>
+<div class="table-container">
+<table class="table6" id="Chapman_points">
+<tbody>
+<tr>
+<td data-col="0"><strong>Organ</strong></td>
+<td data-col="1"><strong>Anterior point</strong></td>
+<td data-col="2"><strong>Posterior point</strong></td>
+</tr>
+<tr>
+<td class="row-divider" colspan="3" data-col="0"><strong>Head and neck</strong></td>
+</tr>
+<tr>
+<td data-col="0">Sinuses</td>
+<td data-col="1">Inferior to medial clavicle</td>
+<td data-col="2">Midway between the spinous process and tip of transverse process of C<sub>2</sub></td>
+</tr>
+<tr>
+<td data-col="0">Pharynx</td>
+<td data-col="1">3-4 cm medial to where first rib emerges from beneath the clavicle</td>
+<td data-col="2">Midway between the spinous process and tip of transverse process of C<sub>2</sub></td>
+</tr>
+<tr>
+<td data-col="0">Larynx</td>
+<td data-col="1">On the second rib 5-7 cm lateral to the sternocostal junction</td>
+<td data-col="2">Midway between the spinous process and tip of transverse process of C<sub>2</sub></td>
+</tr>
+<tr>
+<td data-col="0">Tonsils</td>
+<td data-col="1">First intercostal space adjacent to the sternum</td>
+<td data-col="2">Midway between the spinous process and tip of transverse process of C<sub>1</sub></td>
+</tr>
+<tr>
+<td data-col="0">Middle Ear</td>
+<td data-col="1">Superior anterior aspect of the clavicle lateral to the intersection of the clavicle and first rib</td>
+<td data-col="2">Tip of the posterior aspect of the C<sub>1</sub> transverse process</td>
+</tr>
+<tr>
+<td data-col="0">Eye</td>
+<td data-col="1">Anterior aspect of the surgical neck of the humerus</td>
+<td data-col="2">Squamous portion of the occipital bone below the superior nuchal line</td>
+</tr>
+<tr>
+<td class="row-divider" colspan="3" data-col="0"><strong>Cardiac/Respiratory</strong></td>
+</tr>
+<tr>
+<td data-col="0">Heart</td>
+<td data-col="1">Second intercostal space at the sternocostal junction</td>
+<td data-col="2">Midway between the spinous process and tip of the transverse process between T<sub>2-3</sub></td>
+</tr>
+<tr>
+<td data-col="0">Bronchi</td>
+<td data-col="1">Second intercostal space at the sternocostal junction</td>
+<td data-col="2">Midway between the spinous process and tip of the transverse process of T<sub>2</sub></td>
+</tr>
+<tr>
+<td data-col="0">Upper lung</td>
+<td data-col="1">Third intercostal space at the sternocostal junction</td>
+<td data-col="2">Midway between the spinous process and tip of the transverse process between T<sub>3-4</sub></td>
+</tr>
+<tr>
+<td data-col="0">Lower lung</td>
+<td data-col="1">Fourth intercostal space at the sternocostal junction</td>
+<td data-col="2">Midway between the spinous process and tip of the transverse process between T<sub>4-5</sub></td>
+</tr>
+<tr>
+<td class="row-divider" colspan="3" data-col="0"><strong>Gastrointestinal</strong></td>
+</tr>
+<tr>
+<td data-col="0">Esophagus</td>
+<td data-col="1">Second intercostal space at the sternocostal junction</td>
+<td data-col="2">Midway between the spinous process and tip of the transverse process of T<sub>2</sub></td>
+</tr>
+<tr>
+<td data-col="0">Stomach acidity</td>
+<td data-col="1">Left fifth intercostal space at the sternocostal junction</td>
+<td data-col="2">Midway between the spinous process and tip of the transverse process between T<sub>5-6</sub></td>
+</tr>
+<tr>
+<td data-col="0">Stomach peristalsis</td>
+<td data-col="1">Left sixth intercostal space at the sternocostal junction</td>
+<td data-col="2">Midway between the spinous process and tip of the transverse process between T<sub>6-7</sub></td>
+</tr>
+<tr>
+<td data-col="0">Pylorus</td>
+<td data-col="1">No spot exists</td>
+<td data-col="2">Right tenth rib – costotransverse junction</td>
+</tr>
+<tr>
+<td data-col="0">Liver/Gallbladder</td>
+<td data-col="1">Liver – right fifth/sixth intercostal space at the intercostal junction<br/>
+<br/>
+			Gallbladder – right sixth intercostal space at the sternocostal junction</td>
+<td data-col="2">Intertransverse space between T<sub>5-7</sub> Midway between the spinous process and tip of the transverse process on the right</td>
+</tr>
+<tr>
+<td data-col="0">Pancreas</td>
+<td data-col="1">Right seventh intercostal space</td>
+<td data-col="2">Intertransverse space between T<sub>7-8</sub> Midway between the spinous process and tip of the transverse process on the right</td>
+</tr>
+<tr>
+<td data-col="0">Spleen</td>
+<td data-col="1">Left seventh intercostal space</td>
+<td data-col="2">Left transverse process of T<sub>7</sub></td>
+</tr>
+<tr>
+<td data-col="0">Small intestine</td>
+<td data-col="1">Near the costochondral junction:<br/>
+<br/>
+			Duodenum – Eighth intercostal space<br/>
+<br/>
+			Jejunum – Ninth intercostal space<br/>
+<br/>
+			Ileum – Tenth intercostal space</td>
+<td data-col="2">Midway between the spinous process and tip of the transverse process:
+
+			<br/><br/>Duodenum – T<sub>8-9</sub>
+<br/><br/>Jejunum – T<sub>9-10</sub>
+<br/><br/>Ileum – T<sub>10-11</sub> (Right side)</td>
+</tr>
+<tr>
+<td data-col="0">Appendix</td>
+<td data-col="1">Tip of the twelfth rib</td>
+<td data-col="2">Intertransverse space between T<sub>11-12</sub> Midway between the spinous process and tip of the transverse process on the right</td>
+</tr>
+<tr>
+<td data-col="0">Cecum</td>
+<td data-col="1">Right lateral thigh – upper 1/5</td>
+<td data-col="2" rowspan="2">Between the L<sub>2</sub> and L<sub>4</sub> transverse processes as well as the iliac crest in the area of a “triangle”</td>
+</tr>
+<tr>
+<td data-col="0">Large intestine</td>
+<td data-col="1">Lateral thigh:<br/><br/>
+
+			Ascending colon – middle 3/5 (right)<br/><br/>
+
+			Hepatic flexure – lower 1/5 (right)<br/><br/>
+
+			Sigmoid colon – upper 1/5 (left)<br/><br/>
+
+			Descending colon – middle 3/5 (left)<br/><br/>
+
+			Splenic flexure – lower 1/5 (left)</td>
+</tr>
+<tr>
+<td data-col="0">Rectum</td>
+<td data-col="1">Lesser trochanter – proximal inner thigh</td>
+<td data-col="2">On the sacrum near the sacroiliac articulation at the level of S<sub>2</sub></td>
+</tr>
+<tr>
+<td class="row-divider" colspan="3" data-col="0"><strong>Endocrine</strong></td>
+</tr>
+<tr>
+<td data-col="0">Thyroid</td>
+<td data-col="1">Second intercostal space near the sternum</td>
+<td data-col="2">Midway between the spinous process and tip of the transverse process of T<sub>2</sub></td>
+</tr>
+<tr>
+<td data-col="0">Adrenal glands</td>
+<td data-col="1">1-inch lateral and 2-inches superior to the umbilicus</td>
+<td data-col="2">Intertransverse space between T<sub>11-12</sub> Midway between the spinous process and tip of the transverse process</td>
+</tr>
+<tr>
+<td class="row-divider" colspan="3" data-col="0"><strong>Genitourinary</strong></td>
+</tr>
+<tr>
+<td data-col="0">Kidneys</td>
+<td data-col="1">1-inches lateral and superior to the umbilicus</td>
+<td data-col="2">Intertransverse space between T<sub>12-</sub>L<sub>1</sub> Midway between the spinous process and tip of the transverse process</td>
+</tr>
+<tr>
+<td data-col="0">Bladder</td>
+<td data-col="1">Periumbilical region</td>
+<td data-col="2">Transverse process of L<sub>2</sub></td>
+</tr>
+<tr>
+<td data-col="0">Urethra</td>
+<td data-col="1">Pubic symphysis – most superior aspect</td>
+<td data-col="2">Transverse process of L<sub>3</sub></td>
+</tr>
+<tr>
+<td data-col="0">Ovaries/testes</td>
+<td data-col="1">Superior to the pubic tubercle<br/>
+<br/>
+			*Some sources say superior to the pubic ramus or pubic symphysis*</td>
+<td data-col="2">Transverse process of T<sub>10</sub></td>
+</tr>
+<tr>
+<td data-col="0">Male reproductive organs</td>
+<td data-col="1">Prostate - Lateral aspect of the thigh<br/>
+<br/>
+			Seminal vesicles – No spot exists</td>
+<td data-col="2">Between the posterior superior iliac spine and L<sub>5</sub> transverse process.</td>
+</tr>
+</tbody>
+</table></div>
+
+</main>
+
+  <footer style="text-align: center; margin-top: 60px; font-size: 0.9em; color: #aaa;">
+  <form id="suggestionForm" style="margin-top: 1em;">
+    <input type="text" id="suggestionInput" placeholder="Suggest a table or edit..." 
+          style="padding: 6px; width: 220px; border-radius: 4px; border: 1px solid #ccc;" required>
+    <button type="submit" style="padding: 6px 12px;">Send</button>
+  </form>
+  <div id="suggestionStatus" style="margin-top: 6px; font-size: 0.8em;"></div>
+</footer>
+</body>
+
+
+<script src="/STEVEL-1-Summaries/java/static_search.js"></script>
+<script src="/STEVEL-1-Summaries/java/table_page_utils.js"></script>
+<script src="/STEVEL-1-Summaries/java/popup_dictionary.js"></script>
+</html>

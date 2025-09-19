@@ -1,0 +1,1172 @@
+[
+  {
+    "question": "Colonies of Pseudomonas in lungs, Cl⁻ on sweat test, immunoreactive trypsinogen",
+    "answer": "Cystic fibrosis (CFTR gene mutation; fat-soluble vitamin deficiency)",
+    "source": "finding"
+  },
+  {
+    "question": "↑ AFP on second trimester screening",
+    "answer": "Down syndrome, Edwards syndrome",
+    "source": "finding"
+  },
+  {
+    "question": "↑ β-hCG, ↓ PAPP-A on first trimester screening",
+    "answer": "Down syndrome",
+    "source": "finding"
+  },
+  {
+    "question": "↑ Homocysteine and methylmalonic acid, ↓ folate",
+    "answer": "Vitamin B12 deficiency",
+    "source": "finding"
+  },
+  {
+    "question": "Anti-histone",
+    "answer": "Drug-induced lupus",
+    "source": "finding"
+  },
+  {
+    "question": "↓ T cells, ↓ PTH, ↓ Ca²⁺, absent thymic shadow on CXR",
+    "answer": "Thymic aplasia(22q11 deletion: DiGeorge syndrome)",
+    "source": "finding"
+  },
+  {
+    "question": "Recurrent infections, eczema, thrombocytopenia, ↑ IgE and IgA, ↓/n IgG and IgM",
+    "answer": "Wiskott-Aldrich syndrome (WAS gene mutation)",
+    "source": "finding"
+  },
+  {
+    "question": "Bacteria-covered vaginal epithelial cells, ⊕ whiff test",
+    "answer": "“Clue cells” (Gardnerella vaginalis)",
+    "source": "finding"
+  },
+  {
+    "question": "Ring-enhancing brain lesion on CT/MRI in AIDS",
+    "answer": "Toxoplasma gondii (multiple), CNS lymphoma (may be solitary)",
+    "source": "finding"
+  },
+  {
+    "question": "Dilated cardiomyopathy with apical atrophy, megacolon, megaesophagus",
+    "answer": "Chagas disease (Trypanosoma cruzi)",
+    "source": "finding"
+  },
+  {
+    "question": "Atypical lymphocytes, heterophile",
+    "answer": "Infectious mononucleosis (EBV infection)",
+    "source": "finding"
+  },
+  {
+    "question": "Narrowing of upper trachea and subglottis (Steeple sign) on x-ray",
+    "answer": "Croup (parainfluenza virus)",
+    "source": "finding"
+  },
+  {
+    "question": "Cytoplasmic inclusions in Purkinje cells of cerebellum and in hippocampal neurons",
+    "answer": "Negri bodies (rabies)",
+    "source": "finding"
+  },
+  {
+    "question": "Concentrically laminated calcified spherules (psammoma bodies)",
+    "answer": "Papillary thyroid carcinoma, somatostatinoma, meningioma, mesothelioma, ovarian serous papillary cystadenocarcinoma, prolactinoma",
+    "source": "finding"
+  },
+  {
+    "question": "Boot-shaped heart on x-ray",
+    "answer": "Tetralogy of Fallot (due to RVH)",
+    "source": "finding"
+  },
+  {
+    "question": "Rib notching (inferior surface, on x-ray)",
+    "answer": "Coarctation of the aorta",
+    "source": "finding"
+  },
+  {
+    "question": "Delta wave and shortened PR interval on ECG; may lead to supraventricular tachycardia",
+    "answer": "Wolff-Parkinson-White syndrome (bundle of Kent bypasses AV node)",
+    "source": "finding"
+  },
+  {
+    "question": "Electrical alternans(alternating amplitude of R waves on ECG)",
+    "answer": "Cardiac tamponade",
+    "source": "finding"
+  },
+  {
+    "question": "Granuloma with giant cells after pharyngeal infection",
+    "answer": "Aschoff bodies (rheumatic fever)",
+    "source": "finding"
+  },
+  {
+    "question": "↑ fibrin degradation products (D-dimer)",
+    "answer": "DVT, DIC",
+    "source": "finding"
+  },
+  {
+    "question": "Empty-appearing nuclei with central clearing in thyroid cells",
+    "answer": "papillary thyroid carcinoma (“Orphan Annie” eyes)",
+    "source": "finding"
+  },
+  {
+    "question": "“Brown” tumor of bone",
+    "answer": "Hyperparathyroidism or Osteitis fibrosa cystica",
+    "source": "finding"
+  },
+  {
+    "question": "Hypertension, hypokalemia, metabolic alkalosis, ↑ aldosterone, ↓ renin",
+    "answer": "1° hyperaldosteronism (e.g.Conn syndrome)",
+    "source": "finding"
+  },
+  {
+    "question": "Mucin-filled cell with peripheral nucleus",
+    "answer": "“Signet ring” cells (diffuse gastric carcinoma)",
+    "source": "finding"
+  },
+  {
+    "question": "Anti-transglutaminase/anti-deamidated gliadin/anti-endomysial",
+    "answer": "Celiac disease (diarrhea, weight loss)",
+    "source": "finding"
+  },
+  {
+    "question": "Narrowing of bowel lumen on small bowel follow-through",
+    "answer": "“String sign” (Crohn disease)",
+    "source": "finding"
+  },
+  {
+    "question": "“Lead pipe” appearance of colon on imaging",
+    "answer": "Ulcerative colitis (loss of haustra)",
+    "source": "finding"
+  },
+  {
+    "question": "Thousands of polyps on colonoscopy after puberty",
+    "answer": "Familial adenomatous polyposis (APC mutation)",
+    "source": "finding"
+  },
+  {
+    "question": "“Apple core” lesion on barium enema x-ray",
+    "answer": "Colorectal cancer (usually left-sided)",
+    "source": "finding"
+  },
+  {
+    "question": "“Nutmeg” (mottled) appearance of liver",
+    "answer": "Chronic passive congestion (RHF, Budd-Chiari)",
+    "source": "finding"
+  },
+  {
+    "question": "Eosinophilic cytoplasmic inclusion in hepatocytes",
+    "answer": "Mallory body (alcoholic hepatitis)",
+    "source": "finding"
+  },
+  {
+    "question": "Fatty infiltration of hepatocytes, cellular “ballooning”, eventual necrosis",
+    "answer": "Fatty liver disease (alcohol use or metabolic syndrome)",
+    "source": "finding"
+  },
+  {
+    "question": "Anti-smooth muscle antibodies (ASMAs), anti-LKM1",
+    "answer": "Autoimmune hepatitis",
+    "source": "finding"
+  },
+  {
+    "question": "Antimitochondrial antibodies (AMAs)",
+    "answer": "Primary biliary cholangitis(female, cholestasis, portal hypertension)",
+    "source": "finding"
+  },
+  {
+    "question": "Low serum ceruloplasmin",
+    "answer": "Wilson disease",
+    "source": "finding"
+  },
+  {
+    "question": "Migratory thrombophlebitis (migrating DVTs and vasculitis)",
+    "answer": "Trousseau syndrome (pancreatic adenocarcinoma)",
+    "source": "finding"
+  },
+  {
+    "question": "RBC Basophilic stipplings",
+    "answer": "Sideroblastic anemia, Thalassemias",
+    "source": "finding"
+  },
+  {
+    "question": "Howell-Jolly bodies",
+    "answer": "Post-splenectomy or nonfunctional spleen",
+    "source": "finding"
+  },
+  {
+    "question": "Hypochromic, microcytic anemia",
+    "answer": "Iron deficiency, lead poisoning,thalassemia, sideroblastic anemia",
+    "source": "finding"
+  },
+  {
+    "question": "“Hair on end” (crew cut) appearance on skull x-ray",
+    "answer": "β-thalassemia, sickle cell anemia(marrow expansion)",
+    "source": "finding"
+  },
+  {
+    "question": "Hypersegmented neutrophils",
+    "answer": "Megaloblastic anemia (B12orfolatedeficiency)",
+    "source": "finding"
+  },
+  {
+    "question": "Anti-GpIIb/IIIa",
+    "answer": "Immune thrombocytopenia",
+    "source": "finding"
+  },
+  {
+    "question": "“Owl’s eye” giant B cells",
+    "answer": "Reed-Sternberg cells (Hodgkin lymphoma)",
+    "source": "finding"
+  },
+  {
+    "question": "“Starry sky” pattern with tingible body macrophages",
+    "answer": "Burkitt lymphoma (t[8:14], c-myc, EBV)",
+    "source": "finding"
+  },
+  {
+    "question": "Lytic (“punched-out”) bone lesions on x-ray",
+    "answer": "Multiple myeloma",
+    "source": "finding"
+  },
+  {
+    "question": "Monoclonal spike on serum protein electrophoresis",
+    "answer": "Multiple myeloma, Waldenström macroglobulinemia, MGUS",
+    "source": "finding"
+  },
+  {
+    "question": "Stacks of RBCs",
+    "answer": "Rouleaux formation(↑ ESR,multiple myeloma)",
+    "source": "finding"
+  },
+  {
+    "question": "Auer rods in myeloblasts",
+    "answer": "Acute promyelocytic leukemia (APL)",
+    "source": "finding"
+  },
+  {
+    "question": "“Smudge” cells",
+    "answer": "Chronic lymphocytic leukemia (CLL)",
+    "source": "finding"
+  },
+  {
+    "question": "“Tennis racket”-shaped cytoplasmic organelles",
+    "answer": "Langerhans cell histiocytosis (Birbeck granules)",
+    "source": "finding"
+  },
+  {
+    "question": "“Soap bubble” lesion in femur/tibia on x-ray",
+    "answer": "Giant cell tumor of bone",
+    "source": "finding"
+  },
+  {
+    "question": "“Codman triangle” or sunburst pattern on x-ray",
+    "answer": "Osteosarcoma",
+    "source": "finding"
+  },
+  {
+    "question": "“Onion skin” periosteal reaction",
+    "answer": "Ewing sarcoma",
+    "source": "finding"
+  },
+  {
+    "question": "Anti-cyclic citrullinated peptide and rheumatoid factor",
+    "answer": "Rheumatoid arthritis",
+    "source": "finding"
+  },
+  {
+    "question": "Needle-shaped,negativelybirefringent crystals",
+    "answer": "Gout (monosodium urate)",
+    "source": "finding"
+  },
+  {
+    "question": "↑ uric acid",
+    "answer": "Gout, Lesch-Nyhan, tumor lysis syndrome, diuretics",
+    "source": "finding"
+  },
+  {
+    "question": "Rhomboid,positivelybirefringent crystals",
+    "answer": "Pseudogout (calcium pyrophosphate)",
+    "source": "finding"
+  },
+  {
+    "question": "“Bamboo spine” on x-ray",
+    "answer": "Ankylosing spondylitis (HLA-B27)",
+    "source": "finding"
+  },
+  {
+    "question": "Antinuclear, anti-dsDNA, anti-Smith, antiphospholipid",
+    "answer": "Systemic lupus erythematosus (SLE)",
+    "source": "finding"
+  },
+  {
+    "question": "ANCA (p-ANCA/MPO and c-ANCA/PR3)",
+    "answer": "Microscopic polyangiitis, EGPA, GPA, PSC",
+    "source": "finding"
+  },
+  {
+    "question": "Anti-Scl-70 (topoisomerase I), anti-RNA polymerase III",
+    "answer": "Diffuse scleroderma",
+    "source": "finding"
+  },
+  {
+    "question": "Anti-centromere",
+    "answer": "Limited scleroderma (CREST)",
+    "source": "finding"
+  },
+  {
+    "question": "Anti-desmoglein",
+    "answer": "Pemphigus vulgaris",
+    "source": "finding"
+  },
+  {
+    "question": "Anti-hemidesmosome",
+    "answer": "Bullous pemphigoid",
+    "source": "finding"
+  },
+  {
+    "question": "Keratin pearls on skin biopsy",
+    "answer": "Squamous cell carcinoma",
+    "source": "finding"
+  },
+  {
+    "question": "High AFP in maternal serum",
+    "answer": "Dating error, Open neural tube defects",
+    "source": "finding"
+  },
+  {
+    "question": "Bloody or yellow CSF on lumbar puncture",
+    "answer": "Xanthochromia (subarachnoid hemorrhage)",
+    "source": "finding"
+  },
+  {
+    "question": "Loss of dopaminergic neurons in substantia nigra",
+    "answer": "Parkinson disease",
+    "source": "finding"
+  },
+  {
+    "question": "Intracellular eosinophilic inclusion in neuron",
+    "answer": "Lewy body (Parkinson, Lewy body dementia)",
+    "source": "finding"
+  },
+  {
+    "question": "Extracellular amyloid in gray matter of brain",
+    "answer": "Senile plaques (Alzheimer disease)",
+    "source": "finding"
+  },
+  {
+    "question": "Hyperphosphorylated tau in neurons",
+    "answer": "Neurofibrillary tangles (Alzheimer, Pick bodies)",
+    "source": "finding"
+  },
+  {
+    "question": "“Pseudopalisading” pleomorphic brain tumor cells",
+    "answer": "Glioblastoma",
+    "source": "finding"
+  },
+  {
+    "question": "Small blue cells around central neuropil",
+    "answer": "Homer-Wright rosettes (neuroblastoma, medulloblastoma)",
+    "source": "finding"
+  },
+  {
+    "question": "RBC casts in urine",
+    "answer": "Glomerulonephritis, hypertensive emergency",
+    "source": "finding"
+  },
+  {
+    "question": "WBC casts in urine",
+    "answer": "Acute pyelonephritis, transplant rejection",
+    "source": "finding"
+  },
+  {
+    "question": "Granular “muddy brown” casts in urine",
+    "answer": "Acute tubular necrosis",
+    "source": "finding"
+  },
+  {
+    "question": "Waxy casts with low urine flow",
+    "answer": "End-stage renal disease",
+    "source": "finding"
+  },
+  {
+    "question": "“Lumpy-bumpy” glomeruli on IF",
+    "answer": "Infection-related glomerulonephritis (IgG, IgM, C3)",
+    "source": "finding"
+  },
+  {
+    "question": "Linear IgG deposits on glomerular/alveolar BM",
+    "answer": "Goodpasture syndrome",
+    "source": "finding"
+  },
+  {
+    "question": "Necrotizing vasculitis (lungs) + glomerulonephritis",
+    "answer": "GPA (c-ANCA), Goodpasture syndrome",
+    "source": "finding"
+  },
+  {
+    "question": "Cellular crescents in Bowman's space",
+    "answer": "Rapidly progressive glomerulonephritis",
+    "source": "finding"
+  },
+  {
+    "question": "“Wire loop” glomerular capillaries on LM",
+    "answer": "Diffuse proliferative glomerulonephritis (SLE)",
+    "source": "finding"
+  },
+  {
+    "question": "“Tram-track” appearance of capillary loops",
+    "answer": "Membranoproliferative glomerulonephritis",
+    "source": "finding"
+  },
+  {
+    "question": "Effacement of podocyte foot processes on EM",
+    "answer": "Minimal change disease, FSGS (more common in Black patients)",
+    "source": "finding"
+  },
+  {
+    "question": "“Spike and dome” subepithelial deposits",
+    "answer": "Membranous nephropathy",
+    "source": "finding"
+  },
+  {
+    "question": "Eosinophilic nodular glomerulosclerosis",
+    "answer": "Kimmelstiel-Wilson lesions (diabetic nephropathy)",
+    "source": "finding"
+  },
+  {
+    "question": "Thyroid-like appearance of kidney",
+    "answer": "Chronic pyelonephritis",
+    "source": "finding"
+  },
+  {
+    "question": "↑ hCG",
+    "answer": "Multifetal gestation, molar pregnancy, choriocarcinoma, dysgerminoma, Down syndrome",
+    "source": "finding"
+  },
+  {
+    "question": "Koilocytes (raisinoid nuclei, perinuclear halo)",
+    "answer": "HPV infection (risk for cervical cancer)",
+    "source": "finding"
+  },
+  {
+    "question": "“Fried egg” cells, ↑ hCG, ↑ LDH",
+    "answer": "Dysgerminoma",
+    "source": "finding"
+  },
+  {
+    "question": "Schiller-Duval bodies, ↑ AFP",
+    "answer": "Yolk sac tumor",
+    "source": "finding"
+  },
+  {
+    "question": "Call-Exner bodies (granulosa cells around eosinophilic fluid)",
+    "answer": "Granulosa cell tumor (ovary)",
+    "source": "finding"
+  },
+  {
+    "question": "“Chocolate cyst” in ovary",
+    "answer": "Endometriosis",
+    "source": "finding"
+  },
+  {
+    "question": "“Blue domed” breast cysts",
+    "answer": "Fibrocystic change",
+    "source": "finding"
+  },
+  {
+    "question": "Reinke crystals (eosinophilic inclusions in Leydig cells)",
+    "answer": "Leydig cell tumor",
+    "source": "finding"
+  },
+  {
+    "question": "Lines of Zahn (thrombus with alternating layers)",
+    "answer": "Arterial thrombus (pre-mortem)",
+    "source": "finding"
+  },
+  {
+    "question": "Charcot-Leyden crystals (eosinophilic, hexagonal)",
+    "answer": "Asthma",
+    "source": "finding"
+  },
+  {
+    "question": "Curschmann spirals (whorled mucus plugs)",
+    "answer": "Asthma",
+    "source": "finding"
+  },
+  {
+    "question": "“Honeycomb” lung appearance on CT/CXR",
+    "answer": "Idiopathic pulmonary fibrosis",
+    "source": "finding"
+  },
+  {
+    "question": "Golden-brown dumbbell-shaped (fusiform) rods in alveoli (Prussian blue stain)",
+    "answer": "Asbestos (ferruginous) bodies",
+    "source": "finding"
+  },
+  {
+    "question": "Apical lung mass with Horner syndrome",
+    "answer": "Pancoast tumor (superior sulcus tumor)",
+    "source": "finding"
+  },
+  {
+    "question": "Mitochondrial inheritance",
+    "answer": "Occurs in all offspring of affectedfemales; heteroplasmy",
+    "source": "association"
+  },
+  {
+    "question": "Intellectual disability",
+    "answer": "Down syndrome (sporadic)fragile X syndrome (inherited)",
+    "source": "association"
+  },
+  {
+    "question": "Vitamin deficiency (USA)",
+    "answer": "Folate (especially in pregnancy; low body stores)",
+    "source": "association"
+  },
+  {
+    "question": "Lysosomal storage disease",
+    "answer": "Gaucher disease",
+    "source": "association"
+  },
+  {
+    "question": "HLA-DR3",
+    "answer": "Type 1 DM, SLEGraves, Addison<Hashimoto thyroiditis",
+    "source": "association"
+  },
+  {
+    "question": "HLA-DR4",
+    "answer": "Rheumatoid arthritisType I DMAddison disease",
+    "source": "association"
+  },
+  {
+    "question": "H. pylori",
+    "answer": "Gastritis, peptic ulcersgastric adenocarcinomaMALToma",
+    "source": "association"
+  },
+  {
+    "question": "Opportunistic respiratory infection in AIDS",
+    "answer": "Pneumocystis jirovecii",
+    "source": "association"
+  },
+  {
+    "question": "Viral encephalitis affecting temporal lobe",
+    "answer": "HSV-1",
+    "source": "association"
+  },
+  {
+    "question": "Viral infection after blood transfusion",
+    "answer": "Hepatitis C",
+    "source": "association"
+  },
+  {
+    "question": "Food poisoning (exotoxin-mediated)",
+    "answer": "S. aureusB. cereus",
+    "source": "association"
+  },
+  {
+    "question": "Healthcare-associated pneumonia",
+    "answer": "S. aureusPseudomonasother gram positive rods",
+    "source": "association"
+  },
+  {
+    "question": "Bacterial meningitis (0–6 months)",
+    "answer": "Group B StrepE. coliListeria",
+    "source": "association"
+  },
+  {
+    "question": "Bacterial meningitis (>6 months)",
+    "answer": "S. pneumoniae",
+    "source": "association"
+  },
+  {
+    "question": "Osteomyelitis",
+    "answer": "S. aureus(most common overall)",
+    "source": "association"
+  },
+  {
+    "question": "Osteomyelitis in sickle cell",
+    "answer": "1) Salmonella2)S. aureus",
+    "source": "association"
+  },
+  {
+    "question": "Osteomyelitis in IVDU",
+    "answer": "S. aureusPseudomonasCandida",
+    "source": "association"
+  },
+  {
+    "question": "UTI",
+    "answer": "E. coliStaph. saprophyticus",
+    "source": "association"
+  },
+  {
+    "question": "Bacterial STI",
+    "answer": "Chlamydia trachomatis (D–K)",
+    "source": "association"
+  },
+  {
+    "question": "PID",
+    "answer": "C. trachomatis (subacute)N. gonorrhoeae (acute)",
+    "source": "association"
+  },
+  {
+    "question": "Metastases to bone",
+    "answer": "Prostate,Breast>> lung > kidney, colon",
+    "source": "association"
+  },
+  {
+    "question": "Metastases to liver",
+    "answer": "Colon> breast >> pancreas, lung, prostate",
+    "source": "association"
+  },
+  {
+    "question": "Metastases to brain",
+    "answer": "Lung > breast >> melanoma > colonprostate",
+    "source": "association"
+  },
+  {
+    "question": "S3 heart sound",
+    "answer": "↑ ventricular filling pressure(eg, MR, AR, HF, thyrotoxicosis)common in dilated ventricles",
+    "source": "association"
+  },
+  {
+    "question": "S4 heart sound",
+    "answer": "Stiff/hypertrophic ventricleeg, aortic stenosis, restrictive cardiomyopathy)",
+    "source": "association"
+  },
+  {
+    "question": "Holosystolic murmur",
+    "answer": "VSDTricuspid regurgitationMitral regurgitation",
+    "source": "association"
+  },
+  {
+    "question": "Ejection click",
+    "answer": "Aortic stenosis",
+    "source": "association"
+  },
+  {
+    "question": "Mitral stenosis",
+    "answer": "Rheumatic heart disease",
+    "source": "association"
+  },
+  {
+    "question": "Opening snap",
+    "answer": "Mitral stenosis",
+    "source": "association"
+  },
+  {
+    "question": "Congenital heart murmur",
+    "answer": "Mitral valve prolapse",
+    "source": "association"
+  },
+  {
+    "question": "Cyanotic heart disease (early)",
+    "answer": "Tetralogy of Fallot (most common,)D-TGA, PTA, TAPVR,tricuspid atresia",
+    "source": "association"
+  },
+  {
+    "question": "Left-to-right shunts (congenital)",
+    "answer": "VSD> ASD > PDA",
+    "source": "association"
+  },
+  {
+    "question": "Late cyanotic shunt",
+    "answer": "Eisenmenger syndrome",
+    "source": "association"
+  },
+  {
+    "question": "Secondary hypertension",
+    "answer": "Renal/renovascular disease1° hyperaldosteronismOSA",
+    "source": "association"
+  },
+  {
+    "question": "Sites of atherosclerosis",
+    "answer": "Abdominal aorta > coronary artery > popliteal > carotid > circle of Willis",
+    "source": "association"
+  },
+  {
+    "question": "Thoracic aortic aneurysm",
+    "answer": "Marfan syndrome3° syphilis",
+    "source": "association"
+  },
+  {
+    "question": "Abdominal aortic aneurysm risks",
+    "answer": "Atherosclerosistobacco use",
+    "source": "association"
+  },
+  {
+    "question": "Aortic dissection",
+    "answer": "Hypertension (most important risk factor)",
+    "source": "association"
+  },
+  {
+    "question": "Atrial fibrillation",
+    "answer": "Irregularly irregular rhythm↑ risk of emboli",
+    "source": "association"
+  },
+  {
+    "question": "Cor pulmonale",
+    "answer": "Right heart failure due topulmonarycause",
+    "source": "association"
+  },
+  {
+    "question": "Endocarditis valve",
+    "answer": "Mitral > aortic > tricuspid (in IVDU)",
+    "source": "association"
+  },
+  {
+    "question": "Infective endocarditis organism",
+    "answer": "S. aureus (acute)viridans strep (subacute)gallolyticus (colon cancer)HACEK, Bartonella",
+    "source": "association"
+  },
+  {
+    "question": "Cardiac tumor (adults)",
+    "answer": "MetastasisMyxoma (if 1°)",
+    "source": "association"
+  },
+  {
+    "question": "Cardiac 1° tumor (children)",
+    "answer": "Rhabdomyoma(assoc. with tuberous sclerosis)",
+    "source": "association"
+  },
+  {
+    "question": "Hypercoagulability, endothelial damage, blood stasis",
+    "answer": "Virchow triad",
+    "source": "association"
+  },
+  {
+    "question": "Congenital adrenal hyperplasia",
+    "answer": "21-hydroxylase deficiency",
+    "source": "association"
+  },
+  {
+    "question": "Hypopituitarism",
+    "answer": "Pituitary adenoma (mass effect)",
+    "source": "association"
+  },
+  {
+    "question": "Congenital hypothyroidism",
+    "answer": "Thyroid dysgenesisiodine deficiency",
+    "source": "association"
+  },
+  {
+    "question": "Thyroid cancer",
+    "answer": "Papillary carcinoma",
+    "source": "association"
+  },
+  {
+    "question": "Hypoparathyroidism",
+    "answer": "Accidental excision during thyroidectomy",
+    "source": "association"
+  },
+  {
+    "question": "1° hyperparathyroidism",
+    "answer": "Adenoma or hyperplasia",
+    "source": "association"
+  },
+  {
+    "question": "2° hyperparathyroidism",
+    "answer": "Hypocalcemia of CKD",
+    "source": "association"
+  },
+  {
+    "question": "Cushing syndrome",
+    "answer": "Exogenous steroidsAdenomaCushing diseaseParaneoplastic ACTH (sclc)",
+    "source": "association"
+  },
+  {
+    "question": "1° hyperaldosteronism",
+    "answer": "Bilateral adrenal hyperplasiaAdenoma (Conn syndrome)",
+    "source": "association"
+  },
+  {
+    "question": "Adrenal tumor (children)",
+    "answer": "Neuroblastoma",
+    "source": "association"
+  },
+  {
+    "question": "Adrenal tumor (adults)",
+    "answer": "Pheochromocytoma",
+    "source": "association"
+  },
+  {
+    "question": "Refractory peptic ulcers + high gastrin",
+    "answer": "Zollinger-Ellison syndrome (MEN1)",
+    "source": "association"
+  },
+  {
+    "question": "Esophageal cancer",
+    "answer": "SCC (world)Adenocarcinoma (US)",
+    "source": "association"
+  },
+  {
+    "question": "CNS injury-related ulcer",
+    "answer": "Cushing ulcer",
+    "source": "association"
+  },
+  {
+    "question": "Burn-related ulcer",
+    "answer": "Curling ulcer",
+    "source": "association"
+  },
+  {
+    "question": "Chronic atrophic gastritis",
+    "answer": "↑ gastric cancer riskPernicious anemia",
+    "source": "association"
+  },
+  {
+    "question": "Gastric carcinoma metastasis to ovaries",
+    "answer": "Krukenberg tumor",
+    "source": "association"
+  },
+  {
+    "question": "Skip lesions in GI tract",
+    "answer": "Crohn disease",
+    "source": "association"
+  },
+  {
+    "question": "Site of diverticulosis",
+    "answer": "Sigmoid colon",
+    "source": "association"
+  },
+  {
+    "question": "False diverticulum (pharyngoesophageal)",
+    "answer": "Zenker diverticulum",
+    "source": "association"
+  },
+  {
+    "question": "Testicular tumor (young men)",
+    "answer": "Seminoma",
+    "source": "association"
+  },
+  {
+    "question": "Testicular tumor (children)",
+    "answer": "Yolk sac tumor (Schiller-Duval bodies)(↑ AFP)",
+    "source": "association"
+  },
+  {
+    "question": "BenignOvarian tumor",
+    "answer": "Serous cystadenoma",
+    "source": "association"
+  },
+  {
+    "question": "MalignantOvarian tumor",
+    "answer": "Serous cystadenocarcinoma",
+    "source": "association"
+  },
+  {
+    "question": "Ovarian tumor (germ cell)",
+    "answer": "Dysgerminoma (↑ LDH)",
+    "source": "association"
+  },
+  {
+    "question": "Ovarian metastases",
+    "answer": "Krukenberg tumor(gastric origin, mucin-secreting signet cells)",
+    "source": "association"
+  },
+  {
+    "question": "Breast mass (premenopausal)",
+    "answer": "Fibroadenoma",
+    "source": "association"
+  },
+  {
+    "question": "Breast cancer (location)",
+    "answer": "Upper outer quadrant",
+    "source": "association"
+  },
+  {
+    "question": "Invasive breast carcinoma subtype",
+    "answer": "Invasive ductal carcinoma",
+    "source": "association"
+  },
+  {
+    "question": "Gynecomastia",
+    "answer": "Cirrhosishypogonadismtesticular tumorsDrugs (e.g.spironolactone)",
+    "source": "association"
+  },
+  {
+    "question": "Sexually transmitted infection",
+    "answer": "C. trachomatis (D–K)N. gonorrhoeae",
+    "source": "association"
+  },
+  {
+    "question": "Pelvic inflammatory disease",
+    "answer": "C. trachomatisN. gonorrhoeae",
+    "source": "association"
+  },
+  {
+    "question": "Congenital infection",
+    "answer": "CMV",
+    "source": "association"
+  },
+  {
+    "question": "Infection in burn patients",
+    "answer": "Pseudomonas",
+    "source": "association"
+  },
+  {
+    "question": "Infection in neutropenic patients",
+    "answer": "Pseudomonas",
+    "source": "association"
+  },
+  {
+    "question": "Infection after dog/cat bite",
+    "answer": "Pasteurella multocida",
+    "source": "association"
+  },
+  {
+    "question": "Infection from seafood",
+    "answer": "Vibrio vulnificus",
+    "source": "association"
+  },
+  {
+    "question": "Infection with dirty wound and spores",
+    "answer": "Clostridium tetani",
+    "source": "association"
+  },
+  {
+    "question": "Infection with surgical instruments or trauma",
+    "answer": "S. aureus",
+    "source": "association"
+  },
+  {
+    "question": "Meningitis (neonates)",
+    "answer": "Group B StrepE. coliListeria",
+    "source": "association"
+  },
+  {
+    "question": "Meningitis (children/teens)",
+    "answer": "N. meningitidis",
+    "source": "association"
+  },
+  {
+    "question": "Meningitis (adults/elderly)",
+    "answer": "S. pneumoniae",
+    "source": "association"
+  },
+  {
+    "question": "Common cause of viral meningitis",
+    "answer": "Enteroviruses (e.g.coxsackievirus)",
+    "source": "association"
+  },
+  {
+    "question": "Atypical pneumonia inyoung adults",
+    "answer": "Mycoplasma pneumoniae",
+    "source": "association"
+  },
+  {
+    "question": "Infective endocarditis withprosthetic valve",
+    "answer": "S. epidermidis",
+    "source": "association"
+  },
+  {
+    "question": "Infective endocarditis inIVDU",
+    "answer": "S. aureus",
+    "source": "association"
+  },
+  {
+    "question": "Infective endocarditis after dental procedure",
+    "answer": "Streptococcusviridans",
+    "source": "association"
+  },
+  {
+    "question": "Osteomyelitis inchildren",
+    "answer": "S. aureus",
+    "source": "association"
+  },
+  {
+    "question": "Demyelinating disease (young women)",
+    "answer": "Multiple sclerosis",
+    "source": "association"
+  },
+  {
+    "question": "Mixed upper/lower motor neuron disease",
+    "answer": "Amyotrophic lateral sclerosis",
+    "source": "association"
+  },
+  {
+    "question": "Neurodegenerative disorder",
+    "answer": "Alzheimer disease(↓ ACh; amyloid plaques, neurofibrillary tangles)",
+    "source": "association"
+  },
+  {
+    "question": "Early-onset dementia",
+    "answer": "Frontotemporal dementiaEarly-onset AlzheimerCJD",
+    "source": "association"
+  },
+  {
+    "question": "Chorea",
+    "answer": "Huntington disease(A-Dominant, CAG repeat on chromosome 4)",
+    "source": "association"
+  },
+  {
+    "question": "Dementia + Hallucinations + Parkinsonism",
+    "answer": "Lewy body Dementia",
+    "source": "association"
+  },
+  {
+    "question": "1° brain tumor (adults)",
+    "answer": "Glioblastoma",
+    "source": "association"
+  },
+  {
+    "question": "1° brain tumor (children)",
+    "answer": "Pilocytic astrocytoma",
+    "source": "association"
+  },
+  {
+    "question": "Malignant brain tumor (children)",
+    "answer": "Medulloblastoma",
+    "source": "association"
+  },
+  {
+    "question": "Benign brain tumor (adults)",
+    "answer": "Meningioma",
+    "source": "association"
+  },
+  {
+    "question": "Seizure disorder in children",
+    "answer": "Absence seizure",
+    "source": "association"
+  },
+  {
+    "question": "Most common site of a berry aneurysm",
+    "answer": "Anterior communicating artery",
+    "source": "association"
+  },
+  {
+    "question": "Hemorrhagic stroke in young person",
+    "answer": "AV malformation",
+    "source": "association"
+  },
+  {
+    "question": "Bleed in basal ganglia",
+    "answer": "Charcot-Bouchard aneurysm (chronic HTN)",
+    "source": "association"
+  },
+  {
+    "question": "Epidural hematoma",
+    "answer": "Rupture ofmiddle meningeal artery",
+    "source": "association"
+  },
+  {
+    "question": "Subdural hematoma",
+    "answer": "Rupture ofbridging veins",
+    "source": "association"
+  },
+  {
+    "question": "Subarachnoid hemorrhage",
+    "answer": "Berry aneurysm rupture",
+    "source": "association"
+  },
+  {
+    "question": "Bone tumor in adolescents (diaphysis)",
+    "answer": "Ewing sarcoma (t[11;22])",
+    "source": "association"
+  },
+  {
+    "question": "Bone tumor in elderly",
+    "answer": "Multiple myeloma or Metastasis",
+    "source": "association"
+  },
+  {
+    "question": "Metabolic bone disease in elderly",
+    "answer": "Osteoporosis",
+    "source": "association"
+  },
+  {
+    "question": "Hepatocellular carcinoma",
+    "answer": "HBV (± cirrhosis)HCValcoholaflatoxins",
+    "source": "association"
+  },
+  {
+    "question": "Conjugated hyperbilirubinemia (inherited)",
+    "answer": "Dubin-Johnson (black liver)Rotor syndrome",
+    "source": "association"
+  },
+  {
+    "question": "Unconjugated hyperbilirubinemia (benign)",
+    "answer": "Gilbert syndrome",
+    "source": "association"
+  },
+  {
+    "question": "Wilson disease",
+    "answer": "ATP7B mutationCopper buildup in liver, brain,cornea(name for corneal deposits?)",
+    "source": "association"
+  },
+  {
+    "question": "Hemochromatosis",
+    "answer": "HFE mutation or Transfusion overload → heart failurebronze diabetes",
+    "source": "association"
+  },
+  {
+    "question": "Acute pancreatitis",
+    "answer": "Gallstonesalcohol",
+    "source": "association"
+  },
+  {
+    "question": "Chronic pancreatitis",
+    "answer": "Alcohol (adults)cystic fibrosis (children)",
+    "source": "association"
+  },
+  {
+    "question": "Microcytic anemia",
+    "answer": "Iron deficiencyThalassemiaLead poisoningsideroblastic anemia",
+    "source": "association"
+  },
+  {
+    "question": "Autosplenectomy",
+    "answer": "Sickle cell anemia(also Howell-Jolly bodies)",
+    "source": "association"
+  },
+  {
+    "question": "GpIb deficiency",
+    "answer": "Bernard-Soulier syndrome(↓ platelet-vWFadhesion)",
+    "source": "association"
+  },
+  {
+    "question": "GpIIb/IIIa deficiency",
+    "answer": "Glanzmann thrombasthenia(↓ plateletaggregation)",
+    "source": "association"
+  },
+  {
+    "question": "Thrombophilia with pregnancy loss",
+    "answer": "Factor V Leiden(resistant to degradation)",
+    "source": "association"
+  },
+  {
+    "question": "DIC triggers",
+    "answer": "Sepsis, trauma,malignancy, obstetricsheat stroke, pancreatitis",
+    "source": "association"
+  },
+  {
+    "question": "Malignancy with noninfectious fever",
+    "answer": "Hodgkin lymphoma (bimodal age)",
+    "source": "association"
+  },
+  {
+    "question": "Most common Hodgkin lymphoma type",
+    "answer": "Nodular sclerosis",
+    "source": "association"
+  },
+  {
+    "question": "t(14;18)",
+    "answer": "Follicular lymphoma(↑ BCL-2, anti-apoptotic)",
+    "source": "association"
+  },
+  {
+    "question": "t(8;14)",
+    "answer": "Burkitt lymphoma(c-MYC activation)",
+    "source": "association"
+  },
+  {
+    "question": "Most common non-Hodgkin lymphoma in adults",
+    "answer": "Diffuse large B-cell lymphoma",
+    "source": "association"
+  },
+  {
+    "question": "Leukemia by age",
+    "answer": "ALL: childrenCLL: >60AML: ~65CML: 45–85",
+    "source": "association"
+  },
+  {
+    "question": "t(9;22)",
+    "answer": "Philadelphia chromosome → CML (BCR-ABL)also in ALL",
+    "source": "association"
+  }
+]

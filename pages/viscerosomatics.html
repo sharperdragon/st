@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viscerosomatics</title>
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/style.css" />
+  <link rel="icon" href="/STEVEL-1-Summaries/static/stevel_icon.png" />
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/table.css" />
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/nav.css" />
+</head>
+
+<body>
+<div style="display: flex; justify-content: flex-start; align-items: center; margin: 15px auto 18px;">
+  <a href="/STEVEL-1-Summaries/index.html" class="nav-link" style="display: inline-flex; align-items: center; gap: 8px; border:1px solid slate">
+    <img src="/STEVEL-1-Summaries/static/stevel_icon.png" alt="Home" style="height: 24px;">
+    Home
+  </a>
+    <div class="utility-toolbar" style="margin-bottom: 15px;">
+      <button id="reset-button">Reset</button>
+      <button id="hide-all-button">Hide All</button>
+
+      <!-- New Hide Column dropdown -->
+      <div id="hide-col-wrapper" style="display: inline-block; position: relative;">
+        <button id="hide-col-button">Hide Column ▾</button>
+        <div id="hide-col-menu" style="display: none; position: absolute; z-index: 10; background: white; border: 1px solid #ccc; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+          <!-- JS will dynamically populate this -->
+        </div>
+      </div>
+
+      <button id="shuffle-button">Shuffle Rows</button>
+    </div>
+  <nav style="display:show" id="float-nav-container">
+    <div id="float-nav-button-container">
+      <span>Navigate</span>
+    <div class="nav_dropdown_container" id="nav-dropdown">
+      <!-- Immune: submenu -->
+      <div class="nav_category has-children" id="category-immune">
+        <span>Immune</span>
+        <div class="nav_submenu">
+          <a class="nav_link_tab" href="../pages/hla.html">HLA</a>
+        </div>
+      </div>
+      <!-- Misc: submenu -->
+      <div class="nav_category has-children" id="category-misc">
+        <span>Misc</span>
+        <div class="nav_submenu">
+          <a class="nav_link_tab" href="../pages/chapman-points.html">Chapman Points</a>
+          <a class="nav_link_tab" href="../pages/clinical-tests.html">Clinical Tests</a>
+          <a class="nav_link_tab" href="../pages/omm.html">OMM</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+  </div>
+</div>
+
+  <meta content="true" name="summary-card"/>
+<table class="table4" id="viscerosomatics">
+<tbody>
+<tr>
+<th data-col="0"><div class="th-menu-wrapper"><span class="col-title" data-title="visceral organ">Visceral Organ</span><div class="th-dropdown"><a aria-label="Toggle column visibility" class="col-toggle" href="#" onclick="toggleColumn(0); return false;" role="button" title="Toggle this column">Toggle Hide</a></div></div></th>
+<th data-col="1"><div class="th-menu-wrapper"><span class="col-title" data-title="associated sympathetic innervation">Associated Sympathetic Innervation</span><div class="th-dropdown"><a aria-label="Toggle column visibility" class="col-toggle" href="#" onclick="toggleColumn(1); return false;" role="button" title="Toggle this column">Toggle Hide</a></div></div></th>
+<th data-col="2"><div class="th-menu-wrapper"><span class="col-title" data-title="details">Details</span><div class="th-dropdown"><a aria-label="Toggle column visibility" class="col-toggle" href="#" onclick="toggleColumn(2); return false;" role="button" title="Toggle this column">Toggle Hide</a></div></div></th>
+</tr>
+<tr>
+<td data-col="0">Head and Neck </td>
+<td data-col="1">T1-T4</td>
+<td data-col="2">-</td>
+</tr>
+<tr>
+<td data-col="0">Heart</td>
+<td data-col="1">T1-T5</td>
+<td data-col="2">-</td>
+</tr>
+<tr>
+<td data-col="0">Lungs</td>
+<td data-col="1">T2-T7</td>
+<td data-col="2">-</td>
+</tr>
+<tr>
+<td data-col="0">Esophagus</td>
+<td data-col="1">T2-T8</td>
+<td data-col="2">Cervical Esophagus T2-4<br/><br/>
+
+			Thoracic Esophagus T3-6<br/><br/>
+
+			Abdominal Esophagus T5-8</td>
+</tr>
+<tr>
+<td data-col="0">Upper GI Tract<br/><br/>
+
+			(Distal Esophagus, Stomach, Esophagus, Proximal Duodenum, Liver, Gallbladder, Spleen, Pancreas) </td>
+<td data-col="1">T5-T9</td>
+<td data-col="2">Innervation via Celiac Ganglion </td>
+</tr>
+<tr>
+<td data-col="0">Middle GI Tract<br/><br/>
+
+			(Distal Duodenum, Pancreas, Jejunum, Ileum, Ascending Colon, Proximal 2/3 of Transverse Colon) </td>
+<td data-col="1">T10-T11</td>
+<td data-col="2">Innervation via Superior Mesenteric Ganglion </td>
+</tr>
+<tr>
+<td data-col="0">Lower GI Tract<br/><br/>
+
+			(Distal 1/3 of Transverse Colon, Descending Colon, Sigmoid Colon, Rectum)</td>
+<td data-col="1">T12-L2</td>
+<td data-col="2">Innervation via Inferior Mesenteric Ganglion <br/><br/>
+
+			Appendix Innervated by T12</td>
+</tr>
+<tr>
+<td data-col="0">Adrenal Glands</td>
+<td data-col="1">T8-T10</td>
+<td data-col="2"></td>
+</tr>
+<tr>
+<td data-col="0">Kidneys</td>
+<td data-col="1">T10-T11</td>
+<td data-col="2">-</td>
+</tr>
+<tr>
+<td data-col="0">Ureters</td>
+<td data-col="1">T10-L2</td>
+<td data-col="2">Upper Ureter T10-L1<br/><br/>
+
+			Lower Ureter L1-L2</td>
+</tr>
+<tr>
+<td data-col="0">Bladder</td>
+<td data-col="1">T11-L2</td>
+<td data-col="2">-</td>
+</tr>
+<tr>
+<td data-col="0">Testes and Ovaries</td>
+<td data-col="1">T10-T11</td>
+<td data-col="2">-</td>
+</tr>
+<tr>
+<td data-col="0">Uterus and Cervix</td>
+<td data-col="1">T10-L2</td>
+<td data-col="2">-</td>
+</tr>
+<tr>
+<td data-col="0">Lower Extremities, Penis </td>
+<td data-col="1">T11-L2</td>
+<td data-col="2">-</td>
+</tr>
+<tr>
+<td data-col="0">Prostate </td>
+<td data-col="1">L1-L2</td>
+<td data-col="2">-</td>
+</tr>
+</tbody>
+</table>
+
+</main>
+
+  <footer style="text-align: center; margin-top: 60px; font-size: 0.9em; color: #aaa;">
+  <form id="suggestionForm" style="margin-top: 1em;">
+    <input type="text" id="suggestionInput" placeholder="Suggest a table or edit..." 
+          style="padding: 6px; width: 220px; border-radius: 4px; border: 1px solid #ccc;" required>
+    <button type="submit" style="padding: 6px 12px;">Send</button>
+  </form>
+  <div id="suggestionStatus" style="margin-top: 6px; font-size: 0.8em;"></div>
+</footer>
+</body>
+
+
+<script src="/STEVEL-1-Summaries/java/static_search.js"></script>
+<script src="/STEVEL-1-Summaries/java/table_page_utils.js"></script>
+<script src="/STEVEL-1-Summaries/java/popup_dictionary.js"></script>
+</html>

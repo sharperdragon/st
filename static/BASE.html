@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{PAGE_TITLE}}</title>
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/style.css" />
+  <link rel="icon" href="/STEVEL-1-Summaries/static/stevel_icon.png" />
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/table.css" />
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/nav.css" />
+</head>
+
+<body>
+<div style="display: flex; justify-content: flex-start; align-items: center; margin: 15px auto 18px;">
+  <a href="/STEVEL-1-Summaries/index.html" class="nav-link" style="display: inline-flex; align-items: center; gap: 8px; border:1px solid slate">
+    <img src="/STEVEL-1-Summaries/static/stevel_icon.png" alt="Home" style="height: 24px;">
+    Home
+  </a>
+    <div class="utility-toolbar" style="margin-bottom: 15px;">
+      <button id="reset-button">Reset</button>
+      <button id="hide-all-button">Hide All</button>
+
+      <!-- New Hide Column dropdown -->
+      <div id="hide-col-wrapper" style="display: inline-block; position: relative;">
+        <button id="hide-col-button">Hide Column ▾</button>
+        <div id="hide-col-menu" style="display: none; position: absolute; z-index: 10; background: white; border: 1px solid #ccc; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+          <!-- JS will dynamically populate this -->
+        </div>
+      </div>
+
+      <button id="shuffle-button">Shuffle Rows</button>
+    </div>
+  <nav style="display:show" id="float-nav-container">
+    <div id="float-nav-button-container">
+      <span>Navigate</span>
+    {{DROP_NAV_CONTENT}}
+    </div>
+  </nav>
+  </div>
+</div>
+
+  {{TABLE_CONTENT}}
+
+</main>
+
+  <footer style="text-align: center; margin-top: 60px; font-size: 0.9em; color: #aaa;">
+  <form id="suggestionForm" style="margin-top: 1em;">
+    <input type="text" id="suggestionInput" placeholder="Suggest a table or edit..." 
+          style="padding: 6px; width: 220px; border-radius: 4px; border: 1px solid #ccc;" required>
+    <button type="submit" style="padding: 6px 12px;">Send</button>
+  </form>
+  <div id="suggestionStatus" style="margin-top: 6px; font-size: 0.8em;"></div>
+</footer>
+</body>
+
+
+<script src="/STEVEL-1-Summaries/java/static_search.js"></script>
+<script src="/STEVEL-1-Summaries/java/table_page_utils.js"></script>
+<script src="/STEVEL-1-Summaries/java/popup_dictionary.js"></script>
+</html>

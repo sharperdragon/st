@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Chapman Points",
+    "file": "chapman-points.html"
+  },
+  {
+    "name": "Clinical Tests",
+    "file": "clinical-tests.html"
+  },
+  {
+    "name": "HLA",
+    "file": "hla.html"
+  },
+  {
+    "name": "OMM",
+    "file": "omm.html"
+  },
+  {
+    "name": "Viscerosomatics",
+    "file": "viscerosomatics.html"
+  }
+]

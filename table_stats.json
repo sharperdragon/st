@@ -1,0 +1,206 @@
+{
+  "total_tables": 5,
+  "tables_with_sections": 0,
+  "tables_with_no_class": 1,
+  "tables_with_multiple_classes": 0,
+  "tables_with_deprecated_class": 0,
+  "class_counts": {
+    "table": {
+      "table4": {
+        "count": 2,
+        "files": [
+          "HLA.table.html",
+          "viscerosomatics.table.html"
+        ]
+      },
+      "table6": {
+        "count": 2,
+        "files": [
+          "Chapman_points.table.html",
+          "Clinical_Tests.table.html"
+        ]
+      }
+    }
+  },
+  "file_classes": {
+    "Chapman_points.table.html": [
+      "table6"
+    ],
+    "Clinical_Tests.table.html": [
+      "table6"
+    ],
+    "HLA.table.html": [
+      "table4"
+    ],
+    "OMM.table.html": [],
+    "viscerosomatics.table.html": [
+      "table4"
+    ]
+  },
+  "unique_classes": [
+    "table4",
+    "table6"
+  ],
+  "total_rows": 155,
+  "total_cols": 9,
+  "tables_with_header_row": 3,
+  "tables_with_span": 4,
+  "avg_rows_per_table": 31.0,
+  "avg_cols_per_table": 1.8,
+  "common_column_headers": {
+    "organ": 1,
+    "anterior point": 1,
+    "posterior point": 1,
+    "hla associations with disease": 1,
+    "posterior shoulder spaces": 1,
+    "visceral organ": 1,
+    "associated sympathetic innervation": 1,
+    "details": 1
+  },
+  "common_row_labels": {
+    "esophagus": 4,
+    "head and neck": 3,
+    "heart": 3,
+    "kidneys": 3,
+    "bladder": 3,
+    "sinuses": 2,
+    "middle ear": 2,
+    "bronchi": 2,
+    "upper lung": 2,
+    "lower lung": 2,
+    "pancreas": 2,
+    "spleen": 2,
+    "appendix": 2,
+    "cecum": 2,
+    "rectum": 2,
+    "thyroid": 2,
+    "adrenal glands": 2,
+    "urethra": 2,
+    "ovaries/testes": 2,
+    "posterior shoulder spaces": 2,
+    "sympathetic reflexes": 2,
+    "chapman\u2019s points": 2,
+    "prostate": 2,
+    "ant. lumbar tender points": 2,
+    "organ": 1,
+    "pharynx": 1,
+    "larynx": 1,
+    "tonsils": 1,
+    "eye": 1,
+    "cardiac/respiratory": 1,
+    "gastrointestinal": 1,
+    "stomach acidity": 1,
+    "stomach peristalsis": 1,
+    "pylorus": 1,
+    "liver/gallbladder": 1,
+    "small intestine": 1,
+    "large intestine": 1,
+    "endocrine": 1,
+    "genitourinary": 1,
+    "male reproductive organs": 1,
+    "hla associations with disease": 1,
+    "hla marker": 1,
+    "hla-b27": 1,
+    "hla-dr3": 1,
+    "hla-dr4": 1,
+    "hla-dr2": 1,
+    "hla-dq2 / dq8": 1,
+    "hla-dr5": 1,
+    "hla-a3": 1,
+    "hla-b8": 1
+  },
+  "row_structure": {
+    "rows_with_exactly_2_cols": 1,
+    "rows_with_mixed_col_counts": 0,
+    "tables_with_inconsistent_row_lengths": 4
+  },
+  "th_usage": {
+    "tables_with_no_th": 148,
+    "tables_with_only_th_in_col1": 4,
+    "th_cells_not_in_first_col": 3
+  },
+  "avg_words_per_cell": 4.36,
+  "max_table_dimensions": {
+    "rows": 60,
+    "cols": 3
+  },
+  "avg_row_dividers_per_table": 0.0,
+  "row_labels_in_multiple_files": {
+    "head and neck": 3,
+    "sinuses": 2,
+    "middle ear": 2,
+    "heart": 3,
+    "bronchi": 2,
+    "upper lung": 2,
+    "lower lung": 2,
+    "esophagus": 4,
+    "pancreas": 2,
+    "spleen": 2,
+    "appendix": 2,
+    "cecum": 2,
+    "rectum": 2,
+    "thyroid": 2,
+    "adrenal glands": 2,
+    "kidneys": 3,
+    "bladder": 3,
+    "urethra": 2,
+    "ovaries/testes": 2,
+    "posterior shoulder spaces": 2,
+    "sympathetic reflexes": 2,
+    "chapman\u2019s points": 2,
+    "prostate": 2,
+    "ant. lumbar tender points": 2
+  },
+  "frequent_non_header_words": {
+    "the": 118,
+    "process": 44,
+    "and": 40,
+    "between": 36,
+    "transverse": 29,
+    "right": 24,
+    "space": 23,
+    "tip": 22,
+    "spinous": 19,
+    "left": 19,
+    "intercostal": 18,
+    "t11": 17,
+    "colon": 17,
+    "t10": 16,
+    "superior": 15,
+    "hla": 15,
+    "midway": 14,
+    "lateral": 14,
+    "ics": 14,
+    "junction": 11,
+    "lower": 11,
+    "disease": 11,
+    "anterior": 10,
+    "upper": 10,
+    "t12": 10,
+    "bilaterally": 10,
+    "sternocostal": 9,
+    "middle": 9,
+    "esophagus": 9,
+    "thigh": 9,
+    "marker": 9,
+    "tract": 9,
+    "iliac": 8,
+    "pubic": 8,
+    "tender": 8,
+    "posterior": 7,
+    "area": 7,
+    "triangular": 7,
+    "head": 6,
+    "rib": 6,
+    "aspect": 6,
+    "stomach": 6,
+    "liver": 6,
+    "pancreas": 6,
+    "duodenum": 6,
+    "crest": 6,
+    "with": 6,
+    "away": 6,
+    "urine": 6,
+    "inferior": 5
+  }
+}

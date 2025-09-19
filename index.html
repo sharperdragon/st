@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quicksheet Summaries</title>
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/style.css">
+  <link rel="icon" href="/STEVEL-1-Summaries/static/stevel_icon.png">
+</head>
+<body>
+
+  <header style="text-align: center; margin-top: 25px;">
+    <img src="/STEVEL-1-Summaries/static/stevel_icon.png" alt="Logo" style="height: 80px; float: left; margin-left: 20px;">
+    <h1 style="font-size: 2.2em; color: var(--text-h1);">Quicksheet Summaries</h1>
+    <p style="color: #657c7b; font-size: 1.1em;">Quick Tables for High-yield review</p>
+  </header>
+
+<div class="buzz-banner">
+  <div class="buzz-track" id="buzzTrack"></div>
+</div>
+  </div>
+
+  <div style="text-align: center; margin-top: 30px; position: relative;">
+    <input type="text" id="searchInput" autocomplete="off" aria-label="Search summaries or table content" placeholder="Search summaries..." 
+           style="padding: 10px; width: 60%; max-width: 400px; border: 1px solid #ccc; border-radius: 6px;">
+    <div id="searchResults" class="search-results-container" style="position: absolute; left: 50%; transform: translateX(-50%); background: white; border: 1px solid #ccc; border-radius: 6px; margin-top: 4px; max-height: 250px; overflow-y: auto; width: 60%; max-width: 400px; z-index: 1000; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05); display: none;"></div>
+  </div>
+  <!-- 🔁 Navigation links injected from Python script -->
+  <nav style="margin: 20px 0 40px 0; text-align: center; font-size: 0.9em;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;">
+<a href="pages/chapman-points.html" class="home-nav-link">Chapman Points</a>
+<a href="pages/clinical-tests.html" class="home-nav-link">Clinical Tests</a>
+<a href="pages/hla.html" class="home-nav-link">HLA</a>
+<a href="pages/omm.html" class="home-nav-link">OMM</a>
+<a href="pages/viscerosomatics.html" class="home-nav-link">Viscerosomatics</a>
+</div>
+</nav>
+
+  <div id="summaryCards" class="carousel-wrapper">
+    <a class="summary-card" href="pages/chapman-points.html">
+  <div class="card-title">Chapman Points</div>
+  <div class="card-desc">A high-yield summary table for chapman points.</div>
+</a>
+<a class="summary-card" href="pages/clinical-tests.html">
+  <div class="card-title">Clinical Tests</div>
+  <div class="card-desc">A high-yield summary table for clinical tests.</div>
+</a>
+<a class="summary-card" href="pages/viscerosomatics.html">
+  <div class="card-title">Viscerosomatics</div>
+  <div class="card-desc">A high-yield summary table for viscerosomatics.</div>
+</a>
+  </div>
+
+  <!-- 🔁 Rapid Review Carousel -->
+  <div id="RapidCarousel" class="carousel-wrapper" style="margin-top:8vh;min-height: 100px; position: relative; overflow: hidden;">
+    <div class="carousel-inner" style="position: relative; height: 100%;">
+      <!-- Items will be injected by JS -->
+    </div>
+  </div>
+
+  
+  <footer style="text-align: center; margin-top: 60px; font-size: 0.9em; color: #aaa;">
+    <form id="suggestionForm" style="margin-top: 1em;">
+      <input type="text" id="suggestionInput" placeholder="Suggest a table or edit..." 
+            style="padding: 6px; width: 220px; border-radius: 4px; border: 1px solid #ccc;" required>
+      <button type="submit" style="padding: 6px 12px;">Send</button>
+    </form>
+    <div id="suggestionStatus" style="margin-top: 6px; font-size: 0.8em;"></div>
+    Last updated <time datetime="2025-09-18">September 18</time>
+  </footer>
+
+  <script src="/STEVEL-1-Summaries/java/script.js"></script>
+  <datalist id="tableSuggestions"></datalist>
+  <script src="/STEVEL-1-Summaries/java/static_search.js" defer></script>
+<script>
+fetch('/STEVEL-1-Summaries/static/data/buzz_terms.json')
+  .then(response => response.json())
+  .then(data => {
+    const track = document.getElementById("buzzTrack");
+    track.innerText = data.terms.join('  ');  // Double em-space for spacing
+  });
+</script>
+</body>
+</html>

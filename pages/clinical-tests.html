@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clinical Tests</title>
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/style.css" />
+  <link rel="icon" href="/STEVEL-1-Summaries/static/stevel_icon.png" />
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/table.css" />
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/nav.css" />
+</head>
+
+<body>
+<div style="display: flex; justify-content: flex-start; align-items: center; margin: 15px auto 18px;">
+  <a href="/STEVEL-1-Summaries/index.html" class="nav-link" style="display: inline-flex; align-items: center; gap: 8px; border:1px solid slate">
+    <img src="/STEVEL-1-Summaries/static/stevel_icon.png" alt="Home" style="height: 24px;">
+    Home
+  </a>
+    <div class="utility-toolbar" style="margin-bottom: 15px;">
+      <button id="reset-button">Reset</button>
+      <button id="hide-all-button">Hide All</button>
+
+      <!-- New Hide Column dropdown -->
+      <div id="hide-col-wrapper" style="display: inline-block; position: relative;">
+        <button id="hide-col-button">Hide Column ▾</button>
+        <div id="hide-col-menu" style="display: none; position: absolute; z-index: 10; background: white; border: 1px solid #ccc; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+          <!-- JS will dynamically populate this -->
+        </div>
+      </div>
+
+      <button id="shuffle-button">Shuffle Rows</button>
+    </div>
+  <nav style="display:show" id="float-nav-container">
+    <div id="float-nav-button-container">
+      <span>Navigate</span>
+    <div class="nav_dropdown_container" id="nav-dropdown">
+      <!-- Immune: submenu -->
+      <div class="nav_category has-children" id="category-immune">
+        <span>Immune</span>
+        <div class="nav_submenu">
+          <a class="nav_link_tab" href="../pages/hla.html">HLA</a>
+        </div>
+      </div>
+      <!-- Misc: submenu -->
+      <div class="nav_category has-children" id="category-misc">
+        <span>Misc</span>
+        <div class="nav_submenu">
+          <a class="nav_link_tab" href="../pages/chapman-points.html">Chapman Points</a>
+          <a class="nav_link_tab" href="../pages/omm.html">OMM</a>
+          <a class="nav_link_tab" href="../pages/viscerosomatics.html">Viscerosomatics</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+  </div>
+</div>
+
+  <meta content="true" name="summary-card"/>
+<div class="table-container">
+<table class="table6" id="Tests">
+<thead>
+<tr>
+<th class="table-title" colspan="3" style="text-align: center;"></th></tr>
+<tr>
+<th>Test</th>
+<th>Information</th>
+<th>Notes</th>
+</tr>
+<tbody>
+<tr>
+<th colspan="3" style="text-align: center;">
+      Lab Tests
+    </th>
+</tr>
+<tr>
+<td style="font-size:108%">Troponin I/T</td>
+<td>Myocardial infarction diagnosis</td>
+<td>Elevated within hours; peaks at 24–48h; specific for cardiac injury</td>
+</tr>
+<tr>
+<td style="font-size:108%">Alkaline Phosphatase (ALP)</td>
+<td>Bone and hepatobiliary pathology</td>
+<td>↑ in bone growth, liver obstruction; check GGT for hepatic specificity</td>
+</tr>
+<tr>
+<td style="font-size:108%">LDH</td>
+<td>Marker of cell turnover or injury</td>
+<td>Elevated in hemolysis, MI, cancers, pneumocystis pneumonia</td>
+</tr>
+<tr>
+<td style="font-size:108%">INR / PT / PTT</td>
+<td>Coagulation pathway evaluation</td>
+<td><b>INR/PT</b> = extrinsic (VII)<br/><b>PTT</b> = intrinsic (VIII, IX, XI, XII)<br/><i>both</i> ↑ in DIC</td>
+</tr>
+<tr>
+<td style="font-size:108%">CA-125</td>
+<td>Ovarian cancer marker</td>
+<td><b>Non-specific</b><br/>High in endometriosis, menstruation, peritonitis</td>
+</tr>
+<tr>
+<td style="font-size:108%">AFP<br/>(Alpha-Fetoprotein)</td>
+<td>Hepatocellular carcinoma, yolk sac tumor, NTDs</td>
+<td>↑ in HCC, ↓ in Down syndrome<br/>also elevated in twin pregnancy</td>
+</tr>
+<tr>
+<td style="font-size:108%">CEA<br/>(Carcinoembryonic Antigen)</td>
+<td>Colon cancer marker</td>
+<td><b>Low specificity</b><br/>used to monitor recurrence not for screening</td>
+</tr>
+<tr>
+<td style="font-size:108%">CA 19-9</td>
+<td>Pancreatic adenocarcinoma marker</td>
+<td>Elevated in biliary disease too<br/>low sensitivity in early disease</td>
+</tr>
+<tr>
+<td style="font-size:108%">GGT<br/>(Gamma-glutamyl transferase)</td>
+<td>Hepatic enzyme</td>
+<td>↑ in <b>alcohol use</b> and<b> cholestasis</b><br/>distinguishes <i>hepatic</i> ALP from <i>bone</i></td>
+</tr>
+<tr>
+<td style="font-size:108%">Haptoglobin</td>
+<td>Marker of intravascular hemolysis</td>
+<td><b>Low</b> in <u><b>intravascular</b></u> hemolysis<br/>normal in <b>extravascular</b></td>
+</tr>
+<tr>
+<td style="font-size:108%">Reticulocyte Count</td>
+<td>Bone marrow response to anemia</td>
+<td>↑ in hemolysis or blood loss<br/>↓ in aplastic anemia or marrow failure</td>
+</tr>
+<tr>
+<td style="font-size:108%">Schilling Test</td>
+<td>Evaluates <b>B12</b> absorption</td>
+<td>Used to distinguish dietary <b>deficiency</b> vs. <b>pernicious anemia</b> vs. <b>malabsorption</b></td>
+</tr>
+<tr>
+<td style="font-size:108%">Fractional Excretion of Sodium (FENa)</td>
+<td>Differentiates <b>AKI</b> causes</td>
+<td><b>&lt;1%</b> suggests <u>prerenal</u><br/><b>&gt;2%</b> suggests <u>intrinsic</u> renal damage</td>
+</tr>
+<tr>
+<td style="font-size:108%">Urine Anion Gap</td>
+<td>Assesses cause of <u>non-anion</u> gap acidosis</td>
+<td><span class="text-blue">Positive</span> in renal tubular acidosis<br/><span class="text-red">negative</span> in GI bicarb loss</td>
+</tr>
+<tr>
+<td style="font-size:108%">Urinary Cyanide-Nitroprusside Test</td>
+<td>Screens for <b>cystinuria</b></td>
+<td>Turns <b style="color:purple">purple</b> with cystine<br/>confirms aminoaciduria</td>
+</tr>
+<tr>
+<td style="font-size:108%">Urine osmolality vs. serum osmolality</td>
+<td>Evaluates causes of hyponatremia</td>
+<td><i>SIADH</i> = ↑ urine osm<br/><i>DI</i> = ↓ urine osm</td>
+</tr>
+<tr>
+<td style="font-size:108%">Urine chloride</td>
+<td>Differentiates metabolic alkalosis</td>
+<td>Low in vomiting<br/>High in Bartter/Gitelman or diuretic use</td>
+</tr>
+<tr>
+<td style="font-size:108%">Quantiferon-TB Gold / IGRA</td>
+<td>Latent TB screening</td>
+<td>More specific than PPD<br/><u>Not</u> affected by BCG vaccine</td>
+</tr>
+<tr>
+<td style="font-size:108%">NAAT</td>
+<td>STI diagnosis<br/>(gonorrhea/chlamydia)</td>
+<td>Gold standard; detecting bacterial DNA/RNA</td>
+</tr>
+<tr>
+<td style="font-size:108%">Dark-field microscopy</td>
+<td>Treponema pallidum detection</td>
+<td>Used for 1° syphilis<br/>visualizes spirochetes</td>
+</tr>
+<tr>
+<td style="font-size:108%">PAS stain of intestinal biopsy</td>
+<td>Diagnoses Whipple disease</td>
+<td>Stains Tropheryma whipplei-laden <b>macrophages</b></td>
+</tr>
+<tr>
+<td style="font-size:108%">AFB (Acid-Fast Bacilli) stain</td>
+<td>Tuberculosis &amp; Nocardia </td>
+<td>Ziehl-Neelsen stain highlights acid-fast organisms</td>
+</tr>
+<tr>
+<td style="font-size:108%">CSF 14-3-3 protein</td>
+<td>Marker for prion disease</td>
+<td>Creutzfeldt-Jakob disease</td>
+</tr>
+<tr>
+<td style="font-size:108%">EEG: triphasic waves</td>
+<td>Findings in hepatic encephalopathy</td>
+<td>Correlateed w/ metabolic encephalopathy</td>
+</tr>
+<tr>
+<td style="font-size:108%">CSF albuminocytologic dissociation</td>
+<td>Guillain-Barré syndrome</td>
+<td><span style="font-size:108%">↑</span> protein with normal WBC count in CSF</td>
+</tr>
+<tr>
+<td style="font-size:108%">Edrophonium (Tensilon) Test</td>
+<td>Myasthenia gravis diagnosis (historical)</td>
+<td>Transient symptom improvement with AChE inhibitor</td>
+</tr>
+<tr>
+<td style="font-size:108%">Plasma Metanephrines</td>
+<td>Pheochromocytoma screening</td>
+<td>High sensitivity<br/>Metanephrines = Catecholamine metabolite</td>
+</tr>
+<tr>
+<td style="font-size:108%">Water Deprivation Test</td>
+<td>Diabetes insipidus vs. Psychogenic polydipsia</td>
+<td>In central DI, desmopressin increases urine osm</td>
+</tr>
+<tr>
+<th colspan="3" style="background-color: #d0e5f5; text-align: center;">
+        Physical Exam Tests
+      </th>
+</tr>
+<tr>
+<td style="font-size:108%">Ortolani / Barlow maneuvers</td>
+<td>Congenital hip dysplasia screening</td>
+<td>Physical exam clicks/clunks with hip instability</td>
+</tr>
+</tbody></thead></table></div>
+
+</main>
+
+  <footer style="text-align: center; margin-top: 60px; font-size: 0.9em; color: #aaa;">
+  <form id="suggestionForm" style="margin-top: 1em;">
+    <input type="text" id="suggestionInput" placeholder="Suggest a table or edit..." 
+          style="padding: 6px; width: 220px; border-radius: 4px; border: 1px solid #ccc;" required>
+    <button type="submit" style="padding: 6px 12px;">Send</button>
+  </form>
+  <div id="suggestionStatus" style="margin-top: 6px; font-size: 0.8em;"></div>
+</footer>
+</body>
+
+
+<script src="/STEVEL-1-Summaries/java/static_search.js"></script>
+<script src="/STEVEL-1-Summaries/java/table_page_utils.js"></script>
+<script src="/STEVEL-1-Summaries/java/popup_dictionary.js"></script>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HLA</title>
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/style.css" />
+  <link rel="icon" href="/STEVEL-1-Summaries/static/stevel_icon.png" />
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/table.css" />
+  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/nav.css" />
+</head>
+
+<body>
+<div style="display: flex; justify-content: flex-start; align-items: center; margin: 15px auto 18px;">
+  <a href="/STEVEL-1-Summaries/index.html" class="nav-link" style="display: inline-flex; align-items: center; gap: 8px; border:1px solid slate">
+    <img src="/STEVEL-1-Summaries/static/stevel_icon.png" alt="Home" style="height: 24px;">
+    Home
+  </a>
+    <div class="utility-toolbar" style="margin-bottom: 15px;">
+      <button id="reset-button">Reset</button>
+      <button id="hide-all-button">Hide All</button>
+
+      <!-- New Hide Column dropdown -->
+      <div id="hide-col-wrapper" style="display: inline-block; position: relative;">
+        <button id="hide-col-button">Hide Column ▾</button>
+        <div id="hide-col-menu" style="display: none; position: absolute; z-index: 10; background: white; border: 1px solid #ccc; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+          <!-- JS will dynamically populate this -->
+        </div>
+      </div>
+
+      <button id="shuffle-button">Shuffle Rows</button>
+    </div>
+  <nav style="display:show" id="float-nav-container">
+    <div id="float-nav-button-container">
+      <span>Navigate</span>
+    <div class="nav_dropdown_container" id="nav-dropdown">
+      <!-- Immune: submenu -->
+      <div class="nav_category has-children" id="category-immune">
+        <span>Immune</span>
+        <div class="nav_submenu">
+        </div>
+      </div>
+      <!-- Misc: submenu -->
+      <div class="nav_category has-children" id="category-misc">
+        <span>Misc</span>
+        <div class="nav_submenu">
+          <a class="nav_link_tab" href="../pages/chapman-points.html">Chapman Points</a>
+          <a class="nav_link_tab" href="../pages/clinical-tests.html">Clinical Tests</a>
+          <a class="nav_link_tab" href="../pages/omm.html">OMM</a>
+          <a class="nav_link_tab" href="../pages/viscerosomatics.html">Viscerosomatics</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+  </div>
+</div>
+
+  <meta content="false" name="summary-card"/>
+<div class="table-container">
+<table class="table4" id="HLA-table">
+<thead>
+<tr>
+<th class="table-title" colspan="3" style="text-align: center;">
+          HLA Associations with Disease
+        </th>
+</tr>
+<tr>
+<th>HLA Marker</th>
+<th>Associated Disease(s)</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr><td data-col="0">HLA-B27</td><td data-col="1">
+<ul>
+<li>Seronegative spondyloarthropathies</li>
+<li>Ankylosing spondylitis</li>
+<li>Reactive arthritis</li>
+<li>Psoriatic arthritis</li>
+<li>IBD-associated arthritis</li>
+</ul>
+</td><td data-col="2">MHC class I association<br/>strongly linked to seronegative arthropathies<br/><span class="light-note"></span></td></tr>
+<tr><td data-col="0">HLA-DR3</td><td data-col="1">
+<ul>
+<li>Type 1 diabetes mellitus</li>
+<li>SLE</li>
+<li>Graves disease</li>
+<li>Hashimoto thyroiditis</li>
+<li>Addison disease</li>
+</ul>
+</td><td data-col="2">Often paired with DR4 in T1DM; linked to multiple autoimmune endocrinopathies</td></tr>
+<tr><td data-col="0">HLA-DR4</td><td data-col="1">
+<ul>
+<li>Rheumatoid arthritis</li>
+<li>Type 1 diabetes mellitus</li>
+<li>Addison disease</li>
+</ul>
+</td><td data-col="2">Also associated with DR3 in T1DM; key marker in RA susceptibility</td></tr>
+<tr><td data-col="0">HLA-DR2</td><td data-col="1">
+<ul>
+<li>Multiple sclerosis</li>
+<li>Hay fever</li>
+<li>SLE</li>
+<li>Goodpasture syndrome</li>
+</ul>
+</td><td data-col="2">Mixed autoimmune + hypersensitivity conditions; MS, SLE, Goodpasture</td></tr>
+<tr><td data-col="0">HLA-DQ2 / DQ8</td><td data-col="1">
+<ul>
+<li>Celiac disease</li>
+</ul>
+</td><td data-col="2">“DQ2/DQ8 = Celiac you ate” mnemonic; screen in gluten-sensitive patients</td></tr>
+<tr><td data-col="0">HLA-DR5</td><td data-col="1">
+<ul>
+<li>Pernicious anemia</li>
+<li>Hashimoto thyroiditis</li>
+</ul>
+</td><td data-col="2">Autoimmune thyroid disease marker; also linked to B12 deficiency</td></tr>
+<tr><td data-col="0">HLA-A3</td><td data-col="1">
+<ul>
+<li>Hemochromatosis</li>
+</ul>
+</td><td data-col="2">Classic association with hemochromatosis; high yield board linkage</td></tr>
+<tr><td data-col="0">HLA-B8</td><td data-col="1">
+<ul>
+<li>Myasthenia gravis</li>
+<li>Graves disease</li>
+<li>Addison disease</li>
+</ul>
+</td><td data-col="2">Common in autoimmune polyendocrine syndromes; memory mnemonic: “8 = autoimmune great”</td></tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="3" style="padding-top: 12px; font-size: 90%; text-align: left; color: #555;">
+<strong>MHC Class I:</strong> HLA-A, HLA-B, HLA-C<br/>
+<strong>MHC Class II:</strong> HLA-DP, HLA-DQ, HLA-DR
+        </td>
+</tr>
+</tfoot>
+</table>
+</div>
+
+
+</main>
+
+  <footer style="text-align: center; margin-top: 60px; font-size: 0.9em; color: #aaa;">
+  <form id="suggestionForm" style="margin-top: 1em;">
+    <input type="text" id="suggestionInput" placeholder="Suggest a table or edit..." 
+          style="padding: 6px; width: 220px; border-radius: 4px; border: 1px solid #ccc;" required>
+    <button type="submit" style="padding: 6px 12px;">Send</button>
+  </form>
+  <div id="suggestionStatus" style="margin-top: 6px; font-size: 0.8em;"></div>
+</footer>
+</body>
+
+
+<script src="/STEVEL-1-Summaries/java/static_search.js"></script>
+<script src="/STEVEL-1-Summaries/java/table_page_utils.js"></script>
+<script src="/STEVEL-1-Summaries/java/popup_dictionary.js"></script>
+</html>

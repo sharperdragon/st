@@ -21,7 +21,7 @@ class Suggestion(BaseModel):
     suggestion: str
 
 GITHUB_TOKEN = os.getenv("GH_TOKEN")
-REPO = "sharperdragon/STEVEL-1-Summaries"
+REPO = "sharperdragon/study_tables"
 
 @app.post("/api/suggest")
 def create_suggestion(s: Suggestion):

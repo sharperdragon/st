@@ -8,7 +8,7 @@ const pageRank = {
 let searchIndex = [];
 
 async function loadSearchIndex() {
-  const res = await fetch("/STEVEL-1-Summaries/assets/search_index.json");
+  const res = await fetch("/study_tables/assets/search_index.json");
   searchIndex = await res.json();
 }
 

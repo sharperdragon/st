@@ -4,13 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Quicksheet Summaries</title>
-  <link rel="stylesheet" href="/STEVEL-1-Summaries/styles/style.css">
-  <link rel="icon" href="/STEVEL-1-Summaries/static/stevel_icon.png">
+  <link rel="stylesheet" href="/study_tables/styles/style.css">
+  <link rel="icon" href="/study_tables/static/stevel_icon.png">
 </head>
 <body>
 
   <header style="text-align: center; margin-top: 25px;">
-    <img src="/STEVEL-1-Summaries/static/stevel_icon.png" alt="Logo" style="height: 80px; float: left; margin-left: 20px;">
+    <img src="/study_tables/static/stevel_icon.png" alt="Logo" style="height: 80px; float: left; margin-left: 20px;">
     <h1 style="font-size: 2.2em; color: var(--text-h1);">Quicksheet Summaries</h1>
     <p style="color: #657c7b; font-size: 1.1em;">Quick Tables for High-yield review</p>
   </header>
@@ -73,11 +73,11 @@
     Last updated <time datetime="2025-09-18">September 18</time>
   </footer>
 
-  <script src="/STEVEL-1-Summaries/java/script.js"></script>
+  <script src="/study_tables/java/script.js"></script>
   <datalist id="tableSuggestions"></datalist>
-  <script src="/STEVEL-1-Summaries/java/static_search.js" defer></script>
+  <script src="/study_tables/java/static_search.js" defer></script>
 <script>
-fetch('/STEVEL-1-Summaries/static/data/buzz_terms.json')
+fetch('/study_tables/static/data/buzz_terms.json')
   .then(response => response.json())
   .then(data => {
     const track = document.getElementById("buzzTrack");

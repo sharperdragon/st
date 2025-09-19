@@ -23,7 +23,7 @@ function loadBuzzwords() {
   const track = document.querySelector(".buzz-track");
   if (!track) return;
 
-  fetch("/STEVEL-1-Summaries/static/data/buzzwords.json")
+  fetch("/study_tables/static/data/buzzwords.json")
     .then(response => response.json())
     .then(data => {
       const items = Array.isArray(data)
@@ -65,7 +65,7 @@ function loadRapidReviewCards() {
   const container = document.getElementById("RapidCarousel");
   if (!container) return;
 
-  fetch("/STEVEL-1-Summaries/static/data/rapid_cards.json")
+  fetch("/study_tables/static/data/rapid_cards.json")
     .then(res => res.json())
     .then(data => {
       const items = data.map(entry => `

@@ -624,12 +624,6 @@
     "medical": true
   },
   {
-    "term": "axis",
-    "page": "sbs-strain.html",
-    "section": "Sbs Strain",
-    "medical": true
-  },
-  {
     "term": "compression",
     "page": "sbs-strain.html",
     "section": "Sbs Strain",
@@ -1513,12 +1507,6 @@
   },
   {
     "term": "on the second rib 5-7 cm lateral to the sternocostal junction",
-    "page": "chapman-points.html",
-    "section": "Chapman Points",
-    "medical": true
-  },
-  {
-    "term": "organ",
     "page": "chapman-points.html",
     "section": "Chapman Points",
     "medical": true

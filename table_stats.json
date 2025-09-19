@@ -55,7 +55,7 @@
   ],
   "total_rows": 232,
   "total_cols": 14,
-  "tables_with_header_row": 1,
+  "tables_with_header_row": 4,
   "tables_with_span": 4,
   "avg_rows_per_table": 46.4,
   "avg_cols_per_table": 2.8,
@@ -133,9 +133,9 @@
     "tables_with_inconsistent_row_lengths": 4
   },
   "th_usage": {
-    "tables_with_no_th": 231,
+    "tables_with_no_th": 228,
     "tables_with_only_th_in_col1": 0,
-    "th_cells_not_in_first_col": 1
+    "th_cells_not_in_first_col": 4
   },
   "avg_words_per_cell": 5.47,
   "max_table_dimensions": {

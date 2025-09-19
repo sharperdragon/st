@@ -39,8 +39,8 @@ def build_index(build_json=True):
         "Chromosomes": "Genetic disorders and syndromes organized by chromosome number",
         "Autoantibodies": "Autoimmune diseases and their associated antibodies",
         "Glossary": "Relevant terms across pathology, genetics, and neuro — clearly explained with examples",
-        "Lab Tests": "High-yield lab tests for diagnosis and management, including tumor markers, infection assays, and metabolic workups",
-        "Associations": "Rapid-fire 'most common' and high-yield exam associations",
+        "Lab Tests": "lab tests for diagnosis and management, including tumor markers, infection assays, and metabolic workups",
+        "Associations": "Rapid-fire 'most common' and exam associations",
         "Presentations": "Clinical buzzwords and presentation patterns linked to classic diagnoses — optimized for fast recall",
         "Findings": "Diagnostic clues and lab/physical findings tied to conditions, covering exam associations",
         "Pharm": "Work in progress, but go crazy with these Antibiotics and Immunologics"
@@ -69,7 +69,7 @@ def build_index(build_json=True):
             regular_links.append(nav_html_snippet)
 
         if include_card:
-            desc = card_descriptions.get(label, f"A high-yield summary table for {label.lower()}.")
+            desc = card_descriptions.get(label, f"A summary table for {label.lower()}.")
             summary_cards.append(
                 f'''<a class="summary-card" href="{href}">
   <div class="card-title">{label}</div>

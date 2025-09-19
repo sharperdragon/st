@@ -2,26 +2,26 @@
   {
     "name": "Chapman Points",
     "file": "chapman-points.html",
-    "desc": "A high-yield summary table for chapman points."
+    "desc": "A summary table for chapman points."
   },
   {
     "name": "Counterstrain",
     "file": "counterstrain.html",
-    "desc": "A high-yield summary table for counterstrain."
+    "desc": "A summary table for counterstrain."
   },
   {
     "name": "OMM",
     "file": "omm.html",
-    "desc": "A high-yield summary table for omm."
+    "desc": "A summary table for omm."
   },
   {
     "name": "Sbs Strain",
     "file": "sbs-strain.html",
-    "desc": "A high-yield summary table for sbs strain."
+    "desc": "A summary table for sbs strain."
   },
   {
     "name": "Viscerosomatics",
     "file": "viscerosomatics.html",
-    "desc": "A high-yield summary table for viscerosomatics."
+    "desc": "A summary table for viscerosomatics."
   }
 ]

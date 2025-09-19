@@ -134,7 +134,7 @@ def build_pages():
         card_manifest.append({
             "name": label,
             "file": f"{slug}.html",
-            "desc": f"A high-yield summary table for {label.lower()}."  # Placeholder, can be customized later
+            "desc": f"A summary table for {label.lower()}."  # Placeholder, can be customized later
         })
 
     # Cleanup orphaned HTML files

@@ -1,11 +1,17 @@
 {
   "total_tables": 5,
   "tables_with_sections": 0,
-  "tables_with_no_class": 1,
+  "tables_with_no_class": 0,
   "tables_with_multiple_classes": 0,
   "tables_with_deprecated_class": 0,
   "class_counts": {
     "table": {
+      "table1": {
+        "count": 1,
+        "files": [
+          "OMM.table.html"
+        ]
+      },
       "table2": {
         "count": 1,
         "files": [
@@ -39,7 +45,9 @@
     "Counterstrain.table.html": [
       "table3"
     ],
-    "OMM.table.html": [],
+    "OMM.table.html": [
+      "table1"
+    ],
     "SBS_strain.table.html": [
       "table2"
     ],
@@ -48,6 +56,7 @@
     ]
   },
   "unique_classes": [
+    "table1",
     "table2",
     "table3",
     "table4",

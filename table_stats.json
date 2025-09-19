@@ -62,11 +62,11 @@
     "table4",
     "table6"
   ],
-  "total_rows": 232,
+  "total_rows": 228,
   "total_cols": 14,
   "tables_with_header_row": 4,
   "tables_with_span": 4,
-  "avg_rows_per_table": 46.4,
+  "avg_rows_per_table": 45.6,
   "avg_cols_per_table": 2.8,
   "common_column_headers": {
     "organ": 1,
@@ -105,11 +105,7 @@
     "urethra": 2,
     "ovaries/testes": 2,
     "l1-5": 2,
-    "posterior shoulder spaces": 2,
-    "sympathetic reflexes": 2,
-    "chapman\u2019s points": 2,
     "prostate": 2,
-    "ant. lumbar tender points": 2,
     "organ": 1,
     "pharynx": 1,
     "larynx": 1,
@@ -134,7 +130,11 @@
     "right torsion": 1,
     "left side bending and rotation": 1,
     "right side bending and rotation": 1,
-    "non-physiological strain patterns": 1
+    "non-physiological strain patterns": 1,
+    "superior vertical shear": 1,
+    "inferior vertical shear": 1,
+    "left lateral strain": 1,
+    "right lateral strain": 1
   },
   "row_structure": {
     "rows_with_exactly_2_cols": 31,
@@ -142,11 +142,11 @@
     "tables_with_inconsistent_row_lengths": 4
   },
   "th_usage": {
-    "tables_with_no_th": 228,
+    "tables_with_no_th": 224,
     "tables_with_only_th_in_col1": 0,
     "th_cells_not_in_first_col": 4
   },
-  "avg_words_per_cell": 5.47,
+  "avg_words_per_cell": 5.49,
   "max_table_dimensions": {
     "rows": 107,
     "cols": 4
@@ -173,11 +173,7 @@
     "urethra": 2,
     "ovaries/testes": 2,
     "l1-5": 2,
-    "posterior shoulder spaces": 2,
-    "sympathetic reflexes": 2,
-    "chapman\u2019s points": 2,
-    "prostate": 2,
-    "ant. lumbar tender points": 2
+    "prostate": 2
   },
   "frequent_non_header_words": {
     "the": 245,
@@ -185,7 +181,7 @@
     "process": 56,
     "transverse": 51,
     "between": 42,
-    "tender": 42,
+    "tender": 41,
     "anterior": 40,
     "side": 39,
     "lateral": 38,
@@ -203,8 +199,8 @@
     "head": 22,
     "tip": 22,
     "from": 22,
-    "posterior": 22,
     "aspect": 21,
+    "posterior": 21,
     "bend": 21,
     "iliac": 20,
     "rotate": 20,

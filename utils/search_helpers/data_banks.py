@@ -3,7 +3,7 @@ Auto-generated from table_stats.json
 """
 
 SHARED_ROW_LABELS = {
-    "adrenal glands", "ant. lumbar tender points", "appendix", "bladder", "bronchi", "cecum", "chapman’s points", "esophagus", "head and neck", "heart", "kidneys", "l1-5", "lower lung", "middle ear", "ovaries/testes", "pancreas", "posterior shoulder spaces", "prostate", "rectum", "sinuses", "spleen", "sympathetic reflexes", "thyroid", "upper lung", "urethra"
+    "adrenal glands", "appendix", "bladder", "bronchi", "cecum", "esophagus", "head and neck", "heart", "kidneys", "l1-5", "lower lung", "middle ear", "ovaries/testes", "pancreas", "prostate", "rectum", "sinuses", "spleen", "thyroid", "upper lung", "urethra"
 }
 
 OVERUSED_WORDS = {
